@@ -1,13 +1,17 @@
 const fs = require('fs');
 const path = require('path');
-const PDFDocument = require('pdfkit')
+const pdf = require('html-pdf');
+const ReactDOMServer = require('react-dom/server');
 
-module.exports = (weight, output) => new Promise((resolve, reject) => {
-  let doc = new PDFDocument
-  const stream = doc.pipe(fs.createWriteStream(path.join(__dirname, output)))
+// Transform React JSX
+require("@babel/register")({
+  plugins: ["transform-react-jsx"]
+});
 
-  doc.text(`your weight was ${weight}`, 100, 100)
-  doc.end()
-  stream.on('finish', resolve)
-  stream.on('error', reject)
+module.exports = (weight) => new Promise((resolve, reject) => {
+  const Template = require('./template.jsx')({ weight, title: "HELLO" });
+  const html = ReactDOMServer.renderToStaticMarkup(Template);
+  pdf.create(html).toBuffer(function(err, buffer){
+    resolve(buffer)
+  });
 })

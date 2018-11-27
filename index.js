@@ -16,9 +16,9 @@ const run = async () => {
 
   const makePrint = async () => {
     const weight = await page.evaluate(waitForSubmit)
-    console.log('run');
-    await createPDF(weight, name);
-    await print('/output.pdf')
+
+    const buffer = await createPDF(weight, name);
+    await print(buffer)
 
     return makePrint();
   }

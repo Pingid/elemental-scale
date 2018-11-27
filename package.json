@@ -4,8 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "node-printer": "^1.0.4",
-    "pdfkit": "^0.8.3",
+    "@babel/core": "^7.1.6",
+    "@babel/register": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "html-pdf": "^2.2.0",
     "printer": "^0.2.2",
     "puppeteer": "^1.10.0",
     "react": "^16.6.3",
