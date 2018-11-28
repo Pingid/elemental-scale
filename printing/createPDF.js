@@ -9,7 +9,7 @@ require("@babel/register")({
 });
 
 module.exports = (weight) => new Promise((resolve, reject) => {
-  const Template = require('./template.jsx')({ weight, title: "HELLO" });
+  const Template = require('../client/src/components/template.js')({ weight, title: "HELLO" });
   const html = ReactDOMServer.renderToStaticMarkup(Template);
   pdf.create(html).toBuffer(function(err, buffer){
     resolve(buffer)

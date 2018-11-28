@@ -8,10 +8,20 @@
     "@babel/register": "^7.0.0",
     "babel-core": "^6.26.3",
     "babel-plugin-transform-react-jsx": "^6.24.1",
+    "bignumber.js": "^8.0.1",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
     "html-pdf": "^2.2.0",
     "printer": "^0.2.2",
     "puppeteer": "^1.10.0",
     "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react-dom": "^16.6.3",
+    "request-promise": "^4.2.2"
+  },
+  "scripts": {
+    "start-watch": "nodemon server.js",
+    "dev": "concurrently --kill-others \"npm run start-watch\" \"cd client; npm run start\""
   }
 }
