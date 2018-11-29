@@ -26,9 +26,9 @@ class App extends Component {
     return (
       <div className="App">
         <div style={{ width: '100vw', height: '100vh' }} className="flex items-center justify-center">
-          <div>
+          <div style={{ width: '21rem' }}>
             <div className="pb2 flex items-center justify-between">
-              <label className="pr2">Weight: </label>
+              <label className="pr2">Weight (N): </label>
               <input type="text" onChange={e => this.setState({ weight: e.target.value })} value={this.state.weight} placeholder="weight" />
             </div>
             <div className="pb2 flex items-center justify-between">
@@ -36,7 +36,7 @@ class App extends Component {
               <input type="text" onChange={e => this.setState({ name: e.target.value })} value={this.state.name} placeholder="name" />
             </div>
             { (printStatus === 'done' || printStatus === 'error') && <div className="right p1 mt1" style={{ border: '1px solid black' }} onClick={this.handlePrint}>print</div> }
-            { printStatus === 'printing' && <div><div className="right p1 mt1" style={{ border: '1px solid black' }}>printing</div><Loader /></div> }
+            { printStatus === 'printing' && <div><div className="right p1 mt1 ml2" style={{ border: '1px solid black' }}>printing</div><Loader /></div> }
           </div>
         </div>
         <div style={{ width: '100%' }} className="flex items-center justify-center">

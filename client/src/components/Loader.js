@@ -1,10 +1,10 @@
 import React from 'react';
-import * as R from 'ramda';
-
 import makeTick from '../utils/makeTick';
 
 const Loader = ({ tick, text }) => (
-	<span>{`${text || ''} . ${R.repeat('.', tick % 4).join(' ')}`}</span>
+	<div>
+		{ new Array(tick).fill(0).map((_, i) => '-')}
+	</div>
 )
 
-export default makeTick(Loader, 500)
+export default makeTick(Loader, 15)
