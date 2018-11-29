@@ -6,8 +6,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto Mono', source-code-pro, Menlo, Monaco, Consolas, "Courier New";
 }
 
+input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  font-size: inherit;
+  font-family: inherit;
+}
+button {
+  border: 1px solid black;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+input:active {
+  border: none;
+  outline: none;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

@@ -27,7 +27,7 @@ module.exports = [
     "human": {
       "fraction": 0.65,
       "essential": "Yes (e.g. water, electron acceptor)",
-      "negativeEffects": "Reactive oxygen species"
+      "overdoseEffects": "Reactive oxygen species"
     }
   },
   {
@@ -58,7 +58,7 @@ module.exports = [
     "human": {
       "fraction": 0.18,
       "essential": "Yes (organic compounds)",
-      "negativeEffects": ""
+      "overdoseEffects": ""
     }
   },
   {
@@ -88,7 +88,7 @@ module.exports = [
     "human": {
       "fraction": 0.1,
       "essential": "Yes (e.g. water)",
-      "negativeEffects": ""
+      "overdoseEffects": ""
     }
   },
   {
@@ -119,7 +119,7 @@ module.exports = [
     "human": {
       "fraction": 0.03,
       "essential": "Yes (e.g. DNA and amino acids)",
-      "negativeEffects": ""
+      "overdoseEffects": ""
     }
   },
   {
@@ -152,7 +152,7 @@ module.exports = [
     "human": {
       "fraction": 0.014,
       "essential": "Yes (e.g. Calmodulin and Hydroxylapatite in bones)",
-      "negativeEffects": ""
+      "overdoseEffects": ""
     }
   },
   {
@@ -184,7 +184,7 @@ module.exports = [
     "human": {
       "fraction": 0.011,
       "essential": "Yes (e.g. DNA and phosphorylation)",
-      "negativeEffects": "white allotrope highly toxic"
+      "overdoseEffects": "white allotrope highly toxic"
     }
   },
   {
@@ -217,11 +217,8 @@ module.exports = [
     "human": {
       "fraction": "0.002",
       "essential": "Yes (e.g. Na+/K+-ATPase)",
-      "negativeEffects": ""
-    },
-    "fraction": "0.002",
-    "essential": "Yes (e.g. Na+/K+-ATPase)",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Sulfur",
@@ -252,11 +249,8 @@ module.exports = [
     "human": {
       "fraction": "0.0025",
       "essential": "Yes (e.g. Cysteine, Methionine, Biotin, Thiamine)",
-      "negativeEffects": ""
-    },
-    "fraction": "0.0025",
-    "essential": "Yes (e.g. Cysteine, Methionine, Biotin, Thiamine)",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Sodium",
@@ -287,11 +281,8 @@ module.exports = [
     "human": {
       "fraction": "0.0015",
       "essential": "Yes (e.g. Na+/K+-ATPase)",
-      "negativeEffects": ""
-    },
-    "fraction": "0.0015",
-    "essential": "Yes (e.g. Na+/K+-ATPase)",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Chlorine",
@@ -322,11 +313,8 @@ module.exports = [
     "human": {
       "fraction": "0.0015",
       "essential": "Yes (e.g. Cl-transporting ATPase)",
-      "negativeEffects": ""
-    },
-    "fraction": "0.0015",
-    "essential": "Yes (e.g. Cl-transporting ATPase)",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Magnesium",
@@ -357,21 +345,41 @@ module.exports = [
     "human": {
       "fraction": "0.0005",
       "essential": "Yes (e.g. binding to ATP and other nucleotides)",
-      "negativeEffects": ""
-    },
-    "fraction": "0.0005",
-    "essential": "Yes (e.g. binding to ATP and other nucleotides)",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
+    "name": "Iron",
+    "appearance": "lustrous metallic with a grayish tinge",
+    "atomic_mass": 55.8452,
+    "boil": 3134,
+    "category": "transition metal",
+    "color": null,
+    "density": 7.874,
+    "discovered_by": "5000 BC",
+    "melt": 1811,
+    "molar_heat": 25.1,
+    "named_by": null,
+    "number": 26,
+    "period": 4,
+    "phase": "Solid",
+    "source": "https://en.wikipedia.org/wiki/Iron",
+    "spectral_img": "https://en.wikipedia.org/wiki/File:Iron_Spectrum.jpg",
+    "summary": "Iron is a chemical element with symbol Fe (from Latin:ferrum) and atomic number 26. It is a metal in the first transition series. It is by mass the most common element on Earth, forming much of Earth's outer and inner core.",
+    "symbol": "Fe",
+    "xpos": 8,
+    "ypos": 4,
+    "shells": [
+      2,
+      8,
+      14,
+      2
+    ],
     "human": {
       "fraction": "0.00006",
       "essential": "Yes (e.g. Hemoglobin, Cytochromes)",
-      "negativeEffects": ""
-    },
-    "fraction": "0.00006",
-    "essential": "Yes (e.g. Hemoglobin, Cytochromes)",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Fluorine",
@@ -401,11 +409,8 @@ module.exports = [
     "human": {
       "fraction": "0.000037",
       "essential": "Yes (AUS, NZ), No (US, EU), Maybe (WHO)",
-      "negativeEffects": "toxic in high amounts"
-    },
-    "fraction": "0.000037",
-    "essential": "Yes (AUS, NZ), No (US, EU), Maybe (WHO)",
-    "negativeEffects": "toxic in high amounts"
+      "overdoseEffects": "toxic in high amounts"
+    }
   },
   {
     "name": "Zinc",
@@ -437,11 +442,8 @@ module.exports = [
     "human": {
       "fraction": "0.000032",
       "essential": "Yes (e.g. Zinc finger proteins)",
-      "negativeEffects": ""
-    },
-    "fraction": "0.000032",
-    "essential": "Yes (e.g. Zinc finger proteins)",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Silicon",
@@ -472,11 +474,8 @@ module.exports = [
     "human": {
       "fraction": "0.00002",
       "essential": "Possibly",
-      "negativeEffects": ""
-    },
-    "fraction": "0.00002",
-    "essential": "Possibly",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Rubidium",
@@ -509,11 +508,8 @@ module.exports = [
     "human": {
       "fraction": "0.0000046",
       "essential": "No",
-      "negativeEffects": ""
-    },
-    "fraction": "0.0000046",
-    "essential": "No",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Strontium",
@@ -546,11 +542,8 @@ module.exports = [
     "human": {
       "fraction": "0.0000046",
       "essential": "——",
-      "negativeEffects": ""
-    },
-    "fraction": "0.0000046",
-    "essential": "——",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Bromine",
@@ -582,11 +575,8 @@ module.exports = [
     "human": {
       "fraction": "0.0000029",
       "essential": "——",
-      "negativeEffects": ""
-    },
-    "fraction": "0.0000029",
-    "essential": "——",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Lead",
@@ -620,11 +610,8 @@ module.exports = [
     "human": {
       "fraction": "0.0000017",
       "essential": "No",
-      "negativeEffects": "toxic"
-    },
-    "fraction": "0.0000017",
-    "essential": "No",
-    "negativeEffects": "toxic"
+      "overdoseEffects": "toxic"
+    }
   },
   {
     "name": "Copper",
@@ -656,11 +643,8 @@ module.exports = [
     "human": {
       "fraction": "0.000001",
       "essential": "Yes (e.g. copper proteins)",
-      "negativeEffects": ""
-    },
-    "fraction": "0.000001",
-    "essential": "Yes (e.g. copper proteins)",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Aluminium",
@@ -691,11 +675,8 @@ module.exports = [
     "human": {
       "fraction": "8.7e-7",
       "essential": "No",
-      "negativeEffects": ""
-    },
-    "fraction": "8.7e-7",
-    "essential": "No",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Cadmium",
@@ -728,11 +709,8 @@ module.exports = [
     "human": {
       "fraction": "7.2e-7",
       "essential": "No",
-      "negativeEffects": "toxic"
-    },
-    "fraction": "7.2e-7",
-    "essential": "No",
-    "negativeEffects": "toxic"
+      "overdoseEffects": "toxic"
+    }
   },
   {
     "name": "Cerium",
@@ -766,11 +744,8 @@ module.exports = [
     "human": {
       "fraction": "5.7e-7",
       "essential": "No",
-      "negativeEffects": ""
-    },
-    "fraction": "5.7e-7",
-    "essential": "No",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Barium",
@@ -804,11 +779,8 @@ module.exports = [
     "human": {
       "fraction": "3.1e-7",
       "essential": "No",
-      "negativeEffects": "toxic in higher amounts"
-    },
-    "fraction": "3.1e-7",
-    "essential": "No",
-    "negativeEffects": "toxic in higher amounts"
+      "overdoseEffects": "toxic in higher amounts"
+    }
   },
   {
     "name": "Tin",
@@ -841,11 +813,8 @@ module.exports = [
     "human": {
       "fraction": "2.4e-7",
       "essential": "No",
-      "negativeEffects": ""
-    },
-    "fraction": "2.4e-7",
-    "essential": "No",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Iodine",
@@ -878,11 +847,8 @@ module.exports = [
     "human": {
       "fraction": "1.6e-7",
       "essential": "Yes (e.g. thyroxine, triiodothyronine)",
-      "negativeEffects": ""
-    },
-    "fraction": "1.6e-7",
-    "essential": "Yes (e.g. thyroxine, triiodothyronine)",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Titanium",
@@ -914,11 +880,8 @@ module.exports = [
     "human": {
       "fraction": "1.3e-7",
       "essential": "No",
-      "negativeEffects": ""
-    },
-    "fraction": "1.3e-7",
-    "essential": "No",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Boron",
@@ -948,11 +911,8 @@ module.exports = [
     "human": {
       "fraction": "6.9e-7",
       "essential": "Probably",
-      "negativeEffects": ""
-    },
-    "fraction": "6.9e-7",
-    "essential": "Probably",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Selenium",
@@ -984,11 +944,8 @@ module.exports = [
     "human": {
       "fraction": "1.9e-7",
       "essential": "Yes",
-      "negativeEffects": "toxic in higher amounts"
-    },
-    "fraction": "1.9e-7",
-    "essential": "Yes",
-    "negativeEffects": "toxic in higher amounts"
+      "overdoseEffects": "toxic in higher amounts"
+    }
   },
   {
     "name": "Nickel",
@@ -1020,11 +977,8 @@ module.exports = [
     "human": {
       "fraction": "1.4e-7",
       "essential": "Probably",
-      "negativeEffects": "toxic in higher amounts"
-    },
-    "fraction": "1.4e-7",
-    "essential": "Probably",
-    "negativeEffects": "toxic in higher amounts"
+      "overdoseEffects": "toxic in higher amounts"
+    }
   },
   {
     "name": "Chromium",
@@ -1056,11 +1010,8 @@ module.exports = [
     "human": {
       "fraction": "2.4e-8",
       "essential": "Yes",
-      "negativeEffects": ""
-    },
-    "fraction": "2.4e-8",
-    "essential": "Yes",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Manganese",
@@ -1092,11 +1043,8 @@ module.exports = [
     "human": {
       "fraction": "1.7e-7",
       "essential": "Yes (e.g. Mn-SOD)",
-      "negativeEffects": ""
-    },
-    "fraction": "1.7e-7",
-    "essential": "Yes (e.g. Mn-SOD)",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Arsenic",
@@ -1128,11 +1076,8 @@ module.exports = [
     "human": {
       "fraction": "2.6e-7",
       "essential": "Possibly",
-      "negativeEffects": "toxic in higher amounts"
-    },
-    "fraction": "2.6e-7",
-    "essential": "Possibly",
-    "negativeEffects": "toxic in higher amounts"
+      "overdoseEffects": "toxic in higher amounts"
+    }
   },
   {
     "name": "Lithium",
@@ -1162,11 +1107,8 @@ module.exports = [
     "human": {
       "fraction": "3.1e-8",
       "essential": "Yes (intercorrelated with the functions of several enzymes, hormones and vitamins)",
-      "negativeEffects": "toxic in higher amounts"
-    },
-    "fraction": "3.1e-8",
-    "essential": "Yes (intercorrelated with the functions of several enzymes, hormones and vitamins)",
-    "negativeEffects": "toxic in higher amounts"
+      "overdoseEffects": "toxic in higher amounts"
+    }
   },
   {
     "name": "Mercury",
@@ -1200,21 +1142,43 @@ module.exports = [
     "human": {
       "fraction": "1.9e-7",
       "essential": "No",
-      "negativeEffects": "toxic"
-    },
-    "fraction": "1.9e-7",
-    "essential": "No",
-    "negativeEffects": "toxic"
+      "overdoseEffects": "toxic"
+    }
   },
   {
+    "name": "Cesium",
+    "appearance": "silvery gold",
+    "atomic_mass": 132.905451966,
+    "boil": 944,
+    "category": "alkali metal",
+    "color": null,
+    "density": 1.93,
+    "discovered_by": "Robert Bunsen",
+    "melt": 301.7,
+    "molar_heat": 32.21,
+    "named_by": null,
+    "number": 55,
+    "period": 6,
+    "phase": "Solid",
+    "source": "https://en.wikipedia.org/wiki/Cesium",
+    "spectral_img": null,
+    "summary": "Caesium or cesium is a chemical element with symbol Cs and atomic number 55. It is a soft, silvery-gold alkali metal with a melting point of 28 °C (82 °F), which makes it one of only five elemental metals that are liquid at or near room temperature. Caesium is an alkali metal and has physical and chemical properties similar to those of rubidium and potassium.",
+    "symbol": "Cs",
+    "xpos": 1,
+    "ypos": 6,
+    "shells": [
+      2,
+      8,
+      18,
+      18,
+      8,
+      1
+    ],
     "human": {
       "fraction": "2.1e-8",
       "essential": "No",
-      "negativeEffects": ""
-    },
-    "fraction": "2.1e-8",
-    "essential": "No",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Molybdenum",
@@ -1247,11 +1211,8 @@ module.exports = [
     "human": {
       "fraction": "1.3e-7",
       "essential": "Yes (e.g. the molybdenum oxotransferases, Xanthine oxidase and Sulfite oxidase)",
-      "negativeEffects": ""
-    },
-    "fraction": "1.3e-7",
-    "essential": "Yes (e.g. the molybdenum oxotransferases, Xanthine oxidase and Sulfite oxidase)",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Cobalt",
@@ -1283,11 +1244,8 @@ module.exports = [
     "human": {
       "fraction": "2.1e-8",
       "essential": "Yes (cobalamin, B12)",
-      "negativeEffects": ""
-    },
-    "fraction": "2.1e-8",
-    "essential": "Yes (cobalamin, B12)",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Antimony",
@@ -1320,11 +1278,8 @@ module.exports = [
     "human": {
       "fraction": "1.1e-7",
       "essential": "No",
-      "negativeEffects": "toxic"
-    },
-    "fraction": "1.1e-7",
-    "essential": "No",
-    "negativeEffects": "toxic"
+      "overdoseEffects": "toxic"
+    }
   },
   {
     "name": "Silver",
@@ -1357,11 +1312,8 @@ module.exports = [
     "human": {
       "fraction": "1e-8",
       "essential": "No",
-      "negativeEffects": ""
-    },
-    "fraction": "1e-8",
-    "essential": "No",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Niobium",
@@ -1394,11 +1346,8 @@ module.exports = [
     "human": {
       "fraction": "0.0000016",
       "essential": "No",
-      "negativeEffects": ""
-    },
-    "fraction": "0.0000016",
-    "essential": "No",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Zirconium",
@@ -1431,11 +1380,8 @@ module.exports = [
     "human": {
       "fraction": "0.000006",
       "essential": "No",
-      "negativeEffects": ""
-    },
-    "fraction": "0.000006",
-    "essential": "No",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Lanthanum",
@@ -1469,11 +1415,8 @@ module.exports = [
     "human": {
       "fraction": "0.00000137",
       "essential": "No",
-      "negativeEffects": ""
-    },
-    "fraction": "0.00000137",
-    "essential": "No",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Tellurium",
@@ -1506,11 +1449,8 @@ module.exports = [
     "human": {
       "fraction": "1.2e-7",
       "essential": "No",
-      "negativeEffects": ""
-    },
-    "fraction": "1.2e-7",
-    "essential": "No",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   },
   {
     "name": "Gold",
@@ -1544,11 +1484,8 @@ module.exports = [
     "human": {
       "fraction": "3e-9",
       "essential": "No",
-      "negativeEffects": "uncoated nanoparticles possibly genotoxic"
-    },
-    "fraction": "3e-9",
-    "essential": "No",
-    "negativeEffects": "uncoated nanoparticles possibly genotoxic"
+      "overdoseEffects": "uncoated nanoparticles possibly genotoxic"
+    }
   },
   {
     "name": "Vanadium",
@@ -1580,10 +1517,7 @@ module.exports = [
     "human": {
       "fraction": "2.6e-7",
       "essential": "Possibly (suggested osteo-metabolism (bone) growth factor)",
-      "negativeEffects": ""
-    },
-    "fraction": "2.6e-7",
-    "essential": "Possibly (suggested osteo-metabolism (bone) growth factor)",
-    "negativeEffects": ""
+      "overdoseEffects": ""
+    }
   }
 ]

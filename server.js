@@ -17,10 +17,15 @@ app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
 // Serve static files from the React frontend app
 app.use(express.static(path.join(__dirname, 'client/build')))
 
+const plog = str => x => { console.log(str); return x };
+
 // Print
 app.post('/print', async (req, res) => {
   const { weight, name, template } = req.body;
+
+  console.log('creating pdf')
   return createPDF(weight, name)
+    .then(plog('printing'))
     .then(print)
     .then(done => res.send({ done: true }))
     .catch(err => res.send({ done: false, err }))

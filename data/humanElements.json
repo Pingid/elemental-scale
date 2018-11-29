@@ -1,0 +1,602 @@
+[
+  {
+    "Atomic number": 8,
+    "Element": "Oxygen",
+    "Fraction of mass": 0.65,
+    "Mass (kg)": 43,
+    "Atomic percent": 24,
+    "Essential in humans": "Yes (e.g. water, electron acceptor)[17]",
+    "Negative effects of excess": "Reactive oxygen species",
+    "Group": 16
+  },
+  {
+    "Atomic number": 6,
+    "Element": "Carbon",
+    "Fraction of mass": 0.18,
+    "Mass (kg)": 16,
+    "Atomic percent": 12,
+    "Essential in humans": "Yes[17] (organic compounds)",
+    "Negative effects of excess": "",
+    "Group": 14
+  },
+  {
+    "Atomic number": 1,
+    "Element": "Hydrogen",
+    "Fraction of mass": 0.1,
+    "Mass (kg)": 7,
+    "Atomic percent": 62,
+    "Essential in humans": "Yes[17] (e.g. water)",
+    "Negative effects of excess": "",
+    "Group": 1
+  },
+  {
+    "Atomic number": 7,
+    "Element": "Nitrogen",
+    "Fraction of mass": 0.03,
+    "Mass (kg)": 1.8,
+    "Atomic percent": 1.1,
+    "Essential in humans": "Yes[17] (e.g. DNA and amino acids)",
+    "Negative effects of excess": "",
+    "Group": 15
+  },
+  {
+    "Atomic number": 20,
+    "Element": "Calcium",
+    "Fraction of mass": 0.014,
+    "Mass (kg)": 1,
+    "Atomic percent": 0.22,
+    "Essential in humans": "Yes[17][18][19] (e.g. Calmodulin and Hydroxylapatite in bones)",
+    "Negative effects of excess": "",
+    "Group": 2
+  },
+  {
+    "Atomic number": 15,
+    "Element": "Phosphorus",
+    "Fraction of mass": 0.011,
+    "Mass (kg)": 0.78,
+    "Atomic percent": 0.22,
+    "Essential in humans": "Yes[17][18][19] (e.g. DNA and phosphorylation)",
+    "Negative effects of excess": "white allotrope highly toxic",
+    "Group": 15
+  },
+  {
+    "Atomic number": 19,
+    "Element": "Potassium",
+    "Fraction of mass": "2.0×10−3",
+    "Mass (kg)": 0.14,
+    "Atomic percent": 0.033,
+    "Essential in humans": "Yes[17][18] (e.g. Na+/K+-ATPase)",
+    "Negative effects of excess": "",
+    "Group": 1
+  },
+  {
+    "Atomic number": 16,
+    "Element": "Sulfur",
+    "Fraction of mass": "2.5×10−3",
+    "Mass (kg)": 0.14,
+    "Atomic percent": 0.038,
+    "Essential in humans": "Yes[17] (e.g. Cysteine, Methionine, Biotin, Thiamine)",
+    "Negative effects of excess": "",
+    "Group": 16
+  },
+  {
+    "Atomic number": 11,
+    "Element": "Sodium",
+    "Fraction of mass": "1.5×10−3",
+    "Mass (kg)": 0.1,
+    "Atomic percent": 0.037,
+    "Essential in humans": "Yes[18] (e.g. Na+/K+-ATPase)",
+    "Negative effects of excess": "",
+    "Group": 1
+  },
+  {
+    "Atomic number": 17,
+    "Element": "Chlorine",
+    "Fraction of mass": "1.5×10−3",
+    "Mass (kg)": 0.095,
+    "Atomic percent": 0.024,
+    "Essential in humans": "Yes[18][19] (e.g. Cl-transporting ATPase)",
+    "Negative effects of excess": "",
+    "Group": 17
+  },
+  {
+    "Atomic number": 12,
+    "Element": "Magnesium",
+    "Fraction of mass": "500×10−6",
+    "Mass (kg)": 0.019,
+    "Atomic percent": 0.007,
+    "Essential in humans": "Yes[18][19] (e.g. binding to ATP and other nucleotides)",
+    "Negative effects of excess": "",
+    "Group": 2
+  },
+  {
+    "Atomic number": 26,
+    "Element": "Iron*",
+    "Fraction of mass": "60×10−6",
+    "Mass (kg)": 0.0042,
+    "Atomic percent": 0.00067,
+    "Essential in humans": "Yes[18][19] (e.g. Hemoglobin, Cytochromes)",
+    "Negative effects of excess": "",
+    "Group": 8
+  },
+  {
+    "Atomic number": 9,
+    "Element": "Fluorine",
+    "Fraction of mass": "37×10−6",
+    "Mass (kg)": 0.0026,
+    "Atomic percent": 0.0012,
+    "Essential in humans": "Yes (AUS, NZ),[20] No (US, EU),[21][22] Maybe (WHO)[23]",
+    "Negative effects of excess": "toxic in high amounts",
+    "Group": 17
+  },
+  {
+    "Atomic number": 30,
+    "Element": "Zinc",
+    "Fraction of mass": "32×10−6",
+    "Mass (kg)": 0.0023,
+    "Atomic percent": 0.00031,
+    "Essential in humans": "Yes[18][19] (e.g. Zinc finger proteins)",
+    "Negative effects of excess": "",
+    "Group": 12
+  },
+  {
+    "Atomic number": 14,
+    "Element": "Silicon",
+    "Fraction of mass": "20×10−6",
+    "Mass (kg)": 0.001,
+    "Atomic percent": 0.0058,
+    "Essential in humans": "Possibly[8]",
+    "Negative effects of excess": "",
+    "Group": 14
+  },
+  {
+    "Atomic number": 37,
+    "Element": "Rubidium",
+    "Fraction of mass": "4.6×10−6",
+    "Mass (kg)": 0.00068,
+    "Atomic percent": 0.000033,
+    "Essential in humans": "No",
+    "Negative effects of excess": "",
+    "Group": 1
+  },
+  {
+    "Atomic number": 38,
+    "Element": "Strontium",
+    "Fraction of mass": "4.6×10−6",
+    "Mass (kg)": 0.00032,
+    "Atomic percent": 0.000033,
+    "Essential in humans": "——",
+    "Negative effects of excess": "",
+    "Group": 2
+  },
+  {
+    "Atomic number": 35,
+    "Element": "Bromine",
+    "Fraction of mass": "2.9×10−6",
+    "Mass (kg)": 0.00026,
+    "Atomic percent": 0.00003,
+    "Essential in humans": "——",
+    "Negative effects of excess": "",
+    "Group": 17
+  },
+  {
+    "Atomic number": 82,
+    "Element": "Lead",
+    "Fraction of mass": "1.7×10−6",
+    "Mass (kg)": 0.00012,
+    "Atomic percent": 0.0000045,
+    "Essential in humans": "No",
+    "Negative effects of excess": "toxic",
+    "Group": 14
+  },
+  {
+    "Atomic number": 29,
+    "Element": "Copper",
+    "Fraction of mass": "1×10−6",
+    "Mass (kg)": 0.000072,
+    "Atomic percent": 0.0000104,
+    "Essential in humans": "Yes[18][19] (e.g. copper proteins)",
+    "Negative effects of excess": "",
+    "Group": 11
+  },
+  {
+    "Atomic number": 13,
+    "Element": "Aluminium",
+    "Fraction of mass": "870×10−9",
+    "Mass (kg)": 0.00006,
+    "Atomic percent": 0.000015,
+    "Essential in humans": "No",
+    "Negative effects of excess": "",
+    "Group": 13
+  },
+  {
+    "Atomic number": 48,
+    "Element": "Cadmium",
+    "Fraction of mass": "720×10−9",
+    "Mass (kg)": 0.00005,
+    "Atomic percent": 0.0000045,
+    "Essential in humans": "No",
+    "Negative effects of excess": "toxic",
+    "Group": 12
+  },
+  {
+    "Atomic number": 58,
+    "Element": "Cerium",
+    "Fraction of mass": "570×10−9",
+    "Mass (kg)": 0.00004,
+    "Atomic percent": "",
+    "Essential in humans": "No",
+    "Negative effects of excess": "",
+    "Group": ""
+  },
+  {
+    "Atomic number": 56,
+    "Element": "Barium",
+    "Fraction of mass": "310×10−9",
+    "Mass (kg)": 0.000022,
+    "Atomic percent": 0.0000012,
+    "Essential in humans": "No",
+    "Negative effects of excess": "toxic in higher amounts",
+    "Group": 2
+  },
+  {
+    "Atomic number": 50,
+    "Element": "Tin",
+    "Fraction of mass": "240×10−9",
+    "Mass (kg)": 0.00002,
+    "Atomic percent": "6.0×10−7",
+    "Essential in humans": "No",
+    "Negative effects of excess": "",
+    "Group": 14
+  },
+  {
+    "Atomic number": 53,
+    "Element": "Iodine",
+    "Fraction of mass": "160×10−9",
+    "Mass (kg)": 0.00002,
+    "Atomic percent": "7.5×10−7",
+    "Essential in humans": "Yes[18][19] (e.g. thyroxine, triiodothyronine)",
+    "Negative effects of excess": "",
+    "Group": 17
+  },
+  {
+    "Atomic number": 22,
+    "Element": "Titanium",
+    "Fraction of mass": "130×10−9",
+    "Mass (kg)": 0.00002,
+    "Atomic percent": "",
+    "Essential in humans": "No",
+    "Negative effects of excess": "",
+    "Group": 4
+  },
+  {
+    "Atomic number": 5,
+    "Element": "Boron",
+    "Fraction of mass": "690×10−9",
+    "Mass (kg)": 0.000018,
+    "Atomic percent": 0.000003,
+    "Essential in humans": "Probably[8][24]",
+    "Negative effects of excess": "",
+    "Group": 13
+  },
+  {
+    "Atomic number": 34,
+    "Element": "Selenium",
+    "Fraction of mass": "190×10−9",
+    "Mass (kg)": 0.000015,
+    "Atomic percent": "4.5×10−8",
+    "Essential in humans": "Yes[18][19]",
+    "Negative effects of excess": "toxic in higher amounts",
+    "Group": 16
+  },
+  {
+    "Atomic number": 28,
+    "Element": "Nickel",
+    "Fraction of mass": "140×10−9",
+    "Mass (kg)": 0.000015,
+    "Atomic percent": 0.0000015,
+    "Essential in humans": "Probably[8][24]",
+    "Negative effects of excess": "toxic in higher amounts",
+    "Group": 10
+  },
+  {
+    "Atomic number": 24,
+    "Element": "Chromium",
+    "Fraction of mass": "24×10−9",
+    "Mass (kg)": 0.000014,
+    "Atomic percent": "8.9×10−8",
+    "Essential in humans": "Yes[18][19]",
+    "Negative effects of excess": "",
+    "Group": 6
+  },
+  {
+    "Atomic number": 25,
+    "Element": "Manganese",
+    "Fraction of mass": "170×10−9",
+    "Mass (kg)": 0.000012,
+    "Atomic percent": 0.0000015,
+    "Essential in humans": "Yes[18][19] (e.g. Mn-SOD)",
+    "Negative effects of excess": "",
+    "Group": 7
+  },
+  {
+    "Atomic number": 33,
+    "Element": "Arsenic",
+    "Fraction of mass": "260×10−9",
+    "Mass (kg)": 0.000007,
+    "Atomic percent": "8.9×10−8",
+    "Essential in humans": "Possibly[1][8]",
+    "Negative effects of excess": "toxic in higher amounts",
+    "Group": 15
+  },
+  {
+    "Atomic number": 3,
+    "Element": "Lithium",
+    "Fraction of mass": "31×10−9",
+    "Mass (kg)": 0.000007,
+    "Atomic percent": 0.0000015,
+    "Essential in humans": "Yes (intercorrelated with the functions of several enzymes, hormones and vitamins)",
+    "Negative effects of excess": "toxic in higher amounts",
+    "Group": 1
+  },
+  {
+    "Atomic number": 80,
+    "Element": "Mercury",
+    "Fraction of mass": "190×10−9",
+    "Mass (kg)": 0.000006,
+    "Atomic percent": "8.9×10−8",
+    "Essential in humans": "No",
+    "Negative effects of excess": "toxic",
+    "Group": 12
+  },
+  {
+    "Atomic number": 55,
+    "Element": "Caesium",
+    "Fraction of mass": "21×10−9",
+    "Mass (kg)": 0.000006,
+    "Atomic percent": "1.0×10−7",
+    "Essential in humans": "No",
+    "Negative effects of excess": "",
+    "Group": 1
+  },
+  {
+    "Atomic number": 42,
+    "Element": "Molybdenum",
+    "Fraction of mass": "130×10−9",
+    "Mass (kg)": 0.000005,
+    "Atomic percent": "4.5×10−8",
+    "Essential in humans": "Yes[18][19] (e.g. the molybdenum oxotransferases, Xanthine oxidase and Sulfite oxidase)",
+    "Negative effects of excess": "",
+    "Group": 6
+  },
+  {
+    "Atomic number": 32,
+    "Element": "Germanium",
+    "Fraction of mass": "",
+    "Mass (kg)": "5×10−6",
+    "Atomic percent": "",
+    "Essential in humans": "No",
+    "Negative effects of excess": "",
+    "Group": 14
+  },
+  {
+    "Atomic number": 27,
+    "Element": "Cobalt",
+    "Fraction of mass": "21×10−9",
+    "Mass (kg)": 0.000003,
+    "Atomic percent": "3.0×10−7",
+    "Essential in humans": "Yes (cobalamin, B12)[25][26]",
+    "Negative effects of excess": "",
+    "Group": 9
+  },
+  {
+    "Atomic number": 51,
+    "Element": "Antimony",
+    "Fraction of mass": "110×10−9",
+    "Mass (kg)": 0.000002,
+    "Atomic percent": "",
+    "Essential in humans": "No",
+    "Negative effects of excess": "toxic",
+    "Group": 15
+  },
+  {
+    "Atomic number": 47,
+    "Element": "Silver",
+    "Fraction of mass": "10×10−9",
+    "Mass (kg)": 0.000002,
+    "Atomic percent": "",
+    "Essential in humans": "No",
+    "Negative effects of excess": "",
+    "Group": 11
+  },
+  {
+    "Atomic number": 41,
+    "Element": "Niobium",
+    "Fraction of mass": "1600×10−9",
+    "Mass (kg)": 0.0000015,
+    "Atomic percent": "",
+    "Essential in humans": "No",
+    "Negative effects of excess": "",
+    "Group": 5
+  },
+  {
+    "Atomic number": 40,
+    "Element": "Zirconium",
+    "Fraction of mass": "6×10−6",
+    "Mass (kg)": 0.000001,
+    "Atomic percent": "3.0×10−7",
+    "Essential in humans": "No",
+    "Negative effects of excess": "",
+    "Group": 4
+  },
+  {
+    "Atomic number": 57,
+    "Element": "Lanthanum",
+    "Fraction of mass": "1370×10−9",
+    "Mass (kg)": "8×10−7",
+    "Atomic percent": "",
+    "Essential in humans": "No",
+    "Negative effects of excess": "",
+    "Group": ""
+  },
+  {
+    "Atomic number": 52,
+    "Element": "Tellurium",
+    "Fraction of mass": "120×10−9",
+    "Mass (kg)": "7×10−7",
+    "Atomic percent": "",
+    "Essential in humans": "No",
+    "Negative effects of excess": "",
+    "Group": 16
+  },
+  {
+    "Atomic number": 31,
+    "Element": "Gallium",
+    "Fraction of mass": "",
+    "Mass (kg)": "7×10−7",
+    "Atomic percent": "",
+    "Essential in humans": "No",
+    "Negative effects of excess": "",
+    "Group": 13
+  },
+  {
+    "Atomic number": 39,
+    "Element": "Yttrium",
+    "Fraction of mass": "",
+    "Mass (kg)": "6×10−7",
+    "Atomic percent": "",
+    "Essential in humans": "No",
+    "Negative effects of excess": "",
+    "Group": 3
+  },
+  {
+    "Atomic number": 83,
+    "Element": "Bismuth",
+    "Fraction of mass": "",
+    "Mass (kg)": "5×10−7",
+    "Atomic percent": "",
+    "Essential in humans": "No",
+    "Negative effects of excess": "",
+    "Group": 15
+  },
+  {
+    "Atomic number": 81,
+    "Element": "Thallium",
+    "Fraction of mass": "",
+    "Mass (kg)": "5×10−7",
+    "Atomic percent": "",
+    "Essential in humans": "No",
+    "Negative effects of excess": "highly toxic",
+    "Group": 13
+  },
+  {
+    "Atomic number": 49,
+    "Element": "Indium",
+    "Fraction of mass": "",
+    "Mass (kg)": "4×10−7",
+    "Atomic percent": "",
+    "Essential in humans": "No",
+    "Negative effects of excess": "",
+    "Group": 13
+  },
+  {
+    "Atomic number": 79,
+    "Element": "Gold",
+    "Fraction of mass": "3×10−9",
+    "Mass (kg)": "2×10−7",
+    "Atomic percent": "3.0×10−7",
+    "Essential in humans": "No",
+    "Negative effects of excess": "uncoated nanoparticles possibly genotoxic[27][28][29]",
+    "Group": 11
+  },
+  {
+    "Atomic number": 21,
+    "Element": "Scandium",
+    "Fraction of mass": "",
+    "Mass (kg)": "2×10−7",
+    "Atomic percent": "",
+    "Essential in humans": "No",
+    "Negative effects of excess": "",
+    "Group": 3
+  },
+  {
+    "Atomic number": 73,
+    "Element": "Tantalum",
+    "Fraction of mass": "",
+    "Mass (kg)": "2×10−7",
+    "Atomic percent": "",
+    "Essential in humans": "No",
+    "Negative effects of excess": "",
+    "Group": 5
+  },
+  {
+    "Atomic number": 23,
+    "Element": "Vanadium",
+    "Fraction of mass": "260×10−9",
+    "Mass (kg)": "1.1×10−7",
+    "Atomic percent": "1.2×10−8",
+    "Essential in humans": "Possibly[8] (suggested osteo-metabolism (bone) growth factor)",
+    "Negative effects of excess": "",
+    "Group": 5
+  },
+  {
+    "Atomic number": 90,
+    "Element": "Thorium",
+    "Fraction of mass": "",
+    "Mass (kg)": "1×10−7",
+    "Atomic percent": "",
+    "Essential in humans": "No",
+    "Negative effects of excess": "toxic, radioactive",
+    "Group": ""
+  },
+  {
+    "Atomic number": 92,
+    "Element": "Uranium",
+    "Fraction of mass": "",
+    "Mass (kg)": "1×10−7",
+    "Atomic percent": "3.0×10−9",
+    "Essential in humans": "No",
+    "Negative effects of excess": "toxic, radioactive",
+    "Group": ""
+  },
+  {
+    "Atomic number": 62,
+    "Element": "Samarium",
+    "Fraction of mass": "",
+    "Mass (kg)": "5.0×10−8",
+    "Atomic percent": "",
+    "Essential in humans": "No",
+    "Negative effects of excess": "",
+    "Group": ""
+  },
+  {
+    "Atomic number": 74,
+    "Element": "Tungsten",
+    "Fraction of mass": "",
+    "Mass (kg)": "2.0×10−8",
+    "Atomic percent": "",
+    "Essential in humans": "No",
+    "Negative effects of excess": "",
+    "Group": 6
+  },
+  {
+    "Atomic number": 4,
+    "Element": "Beryllium",
+    "Fraction of mass": "",
+    "Mass (kg)": "3.6×10−8",
+    "Atomic percent": "4.5×10−8",
+    "Essential in humans": "No",
+    "Negative effects of excess": "toxic in higher amounts",
+    "Group": 2
+  },
+  {
+    "Atomic number": 88,
+    "Element": "Radium",
+    "Fraction of mass": "",
+    "Mass (kg)": "3×10−14",
+    "Atomic percent": "1×10−17",
+    "Essential in humans": "No",
+    "Negative effects of excess": "toxic, radioactive",
+    "Group": 2
+  }
+]

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import rp from 'request-promise';
 
+import Loader from './Loader';
 import Template from './template';
 
 class App extends Component {
@@ -18,18 +19,29 @@ class App extends Component {
       form: { weight: this.state.weight, name: this.state.name }
     })
       .catch(x => this.setState({ printStatus: 'error' }))
-      .then(x => this.setState({ printStatus: 'done' }))
+      .then(x => this.setState({ printStatus: 'done', name: '', weight: '' }))
   }
   render() {
+    const { printStatus } = this.state;
     return (
       <div className="App">
-        <h1>{this.state.printStatus}</h1>
-        <div>
-          <input type="text" onChange={e => this.setState({ weight: e.target.value })} value={this.state.weight} placeholder="weight" />
-          <input type="text" onChange={e => this.setState({ name: e.target.value })} value={this.state.name} placeholder="name" />
-          <button onClick={this.handlePrint}>PRINT</button>
+        <div style={{ width: '100vw', height: '100vh' }} className="flex items-center justify-center">
+          <div>
+            <div className="pb2 flex items-center justify-between">
+              <label className="pr2">Weight: </label>
+              <input type="text" onChange={e => this.setState({ weight: e.target.value })} value={this.state.weight} placeholder="weight" />
+            </div>
+            <div className="pb2 flex items-center justify-between">
+              <label className="pr2">Name: </label>
+              <input type="text" onChange={e => this.setState({ name: e.target.value })} value={this.state.name} placeholder="name" />
+            </div>
+            { (printStatus === 'done' || printStatus === 'error') && <div className="right p1 mt1" style={{ border: '1px solid black' }} onClick={this.handlePrint}>print</div> }
+            { printStatus === 'printing' && <div><div className="right p1 mt1" style={{ border: '1px solid black' }}>printing</div><Loader /></div> }
+          </div>
         </div>
-        <Template weight={this.state.weight} name={this.state.name}/>
+        <div style={{ width: '100%' }} className="flex items-center justify-center">
+          <div><Template weight={this.state.weight} name={this.state.name}/></div>
+        </div>
       </div>
     );
   }

@@ -3,6 +3,7 @@ const path = require('path');
 const printer = require('printer');
 
 module.exports = fileBuffer => new Promise((resolve, reject) => {
+  console.log('printing', fileBuffer)
   printer.printDirect({
       data: fileBuffer,
       type: 'PDF',
