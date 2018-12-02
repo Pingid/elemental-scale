@@ -25,8 +25,9 @@ app.post('/print', async (req, res) => {
 
   console.log('creating pdf')
   return createPDF(weight, name)
-    .then(plog('printing'))
-    .then(print)
+    .then(buffer => fs.writeSync('./output.pdf', buffer))
+    // .then(plog('printing'))
+    // .then(print)
     .then(done => res.send({ done: true }))
     .catch(err => res.send({ done: false, err }))
 })

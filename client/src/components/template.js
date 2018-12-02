@@ -3,6 +3,8 @@ const elements = require('../utils/elements');
 const { BigNumber } = require('bignumber.js');
 const { Helmet } = require('react-helmet');
 
+require('basscss/css/basscss.css');
+
 module.exports = ({ weight, name }) => {
 
   const avog = new BigNumber(6.02e23);
@@ -11,11 +13,12 @@ module.exports = ({ weight, name }) => {
     const elemMass = elem.human.fraction * humanMass;
     const elemMoles = elemMass / elem.atomic_mass;
     const atoms = avog.times(elemMass).toFixed().replace(/\..*/, '');
-    // console.log({ name: elem.name, elem })
-    return { name: elem.name, atoms }
+    const price = elem.cost.price_avarage * elemMass
+    return { name: elem.name, atoms, price }
   }
   const width = 580;
-  // console.log(elements.sort((a, b) => b.atoms.length - a.atoms.length))
+
+  const cost = Math.round(elements.map(getInfo).reduce((a, b) => a + b.price, 0));
   return (
     <html style={{ margin: 0}}>
       <head>
@@ -38,6 +41,7 @@ module.exports = ({ weight, name }) => {
             <div style={{ width: width * .4 }}>
               <p className="">Name: {name}</p>
               <p className="">Weight: {weight}N</p>
+              <p className="">Value: ${cost}</p>
             </div>
           </div>
           <p className="center py2">N = Newton</p>
@@ -47,17 +51,17 @@ module.exports = ({ weight, name }) => {
           <p className="center py2">Objects that weigh one Newton on the Earth’s surface include a quarter-pound burger, a stick of margarine, and coincidentally a medium size apple, given the alleged story of how Newton discovered gravity.</p>
           <div className="py2" style={{ borderTop: '1px solid black', width: '100%' }} />
           <p className="center py2 pb2 bold">Atoms in your body</p>
-          <p className="bold py2">Main Elements</p>
+          <p className="bold py2 underline">Main Elements</p>
           {
             elements.map(getInfo).sort((a, b) => b.atoms.length - a.atoms.length).map((x, i) => {
 
               return (
                 <React.Fragment key={i}>
-                  { i === 11 && <p className="bold py2">Trace Elements</p>}
-                  <div className="pb2">
-                    <p className="bold py0 m0">{x.name}</p>
-                    <div className="pt1 flex items-center justify-between">
-                      <p className="py0 m0">{x.atoms}</p><p className="py0 m0">atoms</p>
+                  { i === 11 && <p className="bold py2 underline">Trace Elements</p>}
+                  <div className="pb1">
+
+                    <div className="flex items-center justify-between">
+                      <p className="bold py0 m0">{x.name}</p><p className="py0 m0">{x.atoms}</p>
                     </div>
                   </div>
                 </React.Fragment>

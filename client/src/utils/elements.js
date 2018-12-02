@@ -28,6 +28,14 @@ module.exports = [
       "fraction": 0.65,
       "essential": "Yes (e.g. water, electron acceptor)",
       "overdoseEffects": "Reactive oxygen species"
+    },
+    "cost": {
+      "price_kg": "",
+      "price_kg_alt": "$3",
+      "form": "pure",
+      "date": "",
+      "price_conditions": "",
+      "price_avarage": 3
     }
   },
   {
@@ -59,6 +67,14 @@ module.exports = [
       "fraction": 0.18,
       "essential": "Yes (organic compounds)",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "",
+      "price_kg_alt": "$24",
+      "form": "-",
+      "date": "",
+      "price_conditions": "",
+      "price_avarage": 24
     }
   },
   {
@@ -89,6 +105,14 @@ module.exports = [
       "fraction": 0.1,
       "essential": "Yes (e.g. water)",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "$0.7-$5",
+      "price_kg_alt": "$0.7-$5",
+      "form": "Gas",
+      "date": "2004-2018",
+      "price_conditions": "99%",
+      "price_avarage": 3.2
     }
   },
   {
@@ -120,6 +144,14 @@ module.exports = [
       "fraction": 0.03,
       "essential": "Yes (e.g. DNA and amino acids)",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "$3-$4",
+      "price_kg_alt": "$3-$4",
+      "form": "99.999%UHP 311scf cyl.",
+      "date": "2006-2018",
+      "price_conditions": "at U of Florida",
+      "price_avarage": 5
     }
   },
   {
@@ -153,6 +185,14 @@ module.exports = [
       "fraction": 0.014,
       "essential": "Yes (e.g. Calmodulin and Hydroxylapatite in bones)",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "",
+      "price_kg_alt": "$200",
+      "form": "-",
+      "date": "",
+      "price_conditions": "",
+      "price_avarage": 200
     }
   },
   {
@@ -185,6 +225,14 @@ module.exports = [
       "fraction": 0.011,
       "essential": "Yes (e.g. DNA and phosphorylation)",
       "overdoseEffects": "white allotrope highly toxic"
+    },
+    "cost": {
+      "price_kg": "",
+      "price_kg_alt": "$300",
+      "form": "pure",
+      "date": "",
+      "price_conditions": "",
+      "price_avarage": 300
     }
   },
   {
@@ -218,6 +266,14 @@ module.exports = [
       "fraction": "0.002",
       "essential": "Yes (e.g. Na+/K+-ATPase)",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "",
+      "price_kg_alt": "$1000",
+      "form": "pure",
+      "date": "",
+      "price_conditions": "",
+      "price_avarage": 1000
     }
   },
   {
@@ -250,6 +306,14 @@ module.exports = [
       "fraction": "0.0025",
       "essential": "Yes (e.g. Cysteine, Methionine, Biotin, Thiamine)",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "",
+      "price_kg_alt": "$500",
+      "form": "pure",
+      "date": "",
+      "price_conditions": "",
+      "price_avarage": 500
     }
   },
   {
@@ -282,6 +346,14 @@ module.exports = [
       "fraction": "0.0015",
       "essential": "Yes (e.g. Na+/K+-ATPase)",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "",
+      "price_kg_alt": "$250",
+      "form": "pure",
+      "date": "",
+      "price_conditions": "",
+      "price_avarage": 250
     }
   },
   {
@@ -314,6 +386,14 @@ module.exports = [
       "fraction": "0.0015",
       "essential": "Yes (e.g. Cl-transporting ATPase)",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "",
+      "price_kg_alt": "$1-$2",
+      "form": "-",
+      "date": "",
+      "price_conditions": "",
+      "price_avarage": 2
     }
   },
   {
@@ -346,6 +426,14 @@ module.exports = [
       "fraction": "0.0005",
       "essential": "Yes (e.g. binding to ATP and other nucleotides)",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "$5.8",
+      "price_kg_alt": "",
+      "form": "min 99.9% pure",
+      "date": "July 8, 2010",
+      "price_conditions": "",
+      "price_avarage": 5
     }
   },
   {
@@ -379,6 +467,14 @@ module.exports = [
       "fraction": "0.00006",
       "essential": "Yes (e.g. Hemoglobin, Cytochromes)",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "",
+      "price_kg_alt": "$0.019 - $0.072",
+      "form": "-",
+      "date": "2010-2018",
+      "price_conditions": "",
+      "price_avarage": 0.05499999999999999
     }
   },
   {
@@ -410,6 +506,14 @@ module.exports = [
       "fraction": "0.000037",
       "essential": "Yes (AUS, NZ), No (US, EU), Maybe (WHO)",
       "overdoseEffects": "toxic in high amounts"
+    },
+    "cost": {
+      "price_kg": "",
+      "price_kg_alt": "$1900",
+      "form": "-",
+      "date": "",
+      "price_conditions": "",
+      "price_avarage": 1900
     }
   },
   {
@@ -443,6 +547,14 @@ module.exports = [
       "fraction": "0.000032",
       "essential": "Yes (e.g. Zinc finger proteins)",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "$2.1-$4.5",
+      "price_kg_alt": "$2.1-$4.5",
+      "form": "Commodity zinc",
+      "date": "2007-2018",
+      "price_conditions": "LME Cash off. fix. bid",
+      "price_avarage": 4.35
     }
   },
   {
@@ -475,6 +587,14 @@ module.exports = [
       "fraction": "0.00002",
       "essential": "Possibly",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "$2-$3",
+      "price_kg_alt": "",
+      "form": "min 98.5% (5-5-3)",
+      "date": 2010,
+      "price_conditions": "FOB P.R.C. China",
+      "price_avarage": 3.5
     }
   },
   {
@@ -509,6 +629,14 @@ module.exports = [
       "fraction": "0.0000046",
       "essential": "No",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "",
+      "price_kg_alt": "$6000-$12000",
+      "form": "pure",
+      "date": "2010-2018",
+      "price_conditions": "",
+      "price_avarage": 12000
     }
   },
   {
@@ -543,6 +671,14 @@ module.exports = [
       "fraction": "0.0000046",
       "essential": "——",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "",
+      "price_kg_alt": "$1000",
+      "form": "pure",
+      "date": "",
+      "price_conditions": "",
+      "price_avarage": 1000
     }
   },
   {
@@ -576,6 +712,14 @@ module.exports = [
       "fraction": "0.0000029",
       "essential": "——",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "",
+      "price_kg_alt": "$50",
+      "form": "-",
+      "date": "",
+      "price_conditions": "",
+      "price_avarage": 50
     }
   },
   {
@@ -611,6 +755,14 @@ module.exports = [
       "fraction": "0.0000017",
       "essential": "No",
       "overdoseEffects": "toxic"
+    },
+    "cost": {
+      "price_kg": "$1.1-$4.1",
+      "price_kg_alt": "$1.1-$4.1",
+      "form": "Commodity lead",
+      "date": "2007-2018",
+      "price_conditions": "LME Cash off. fix. bid",
+      "price_avarage": 3.15
     }
   },
   {
@@ -644,6 +796,14 @@ module.exports = [
       "fraction": "0.000001",
       "essential": "Yes (e.g. copper proteins)",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "$5.1-$8.8",
+      "price_kg_alt": "$5.1-$8.8",
+      "form": "Commodity copper",
+      "date": "2007-2018",
+      "price_conditions": "LME Cash off. fix. bid",
+      "price_avarage": 9.5
     }
   },
   {
@@ -676,6 +836,14 @@ module.exports = [
       "fraction": "8.7e-7",
       "essential": "No",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "kg",
+      "price_kg_alt": "$1.3-$2.5",
+      "form": "P1020A (=>99.7% Al)",
+      "date": "2002-2018",
+      "price_conditions": "LME official cash, ask NL",
+      "price_avarage": null
     }
   },
   {
@@ -710,6 +878,14 @@ module.exports = [
       "fraction": "7.2e-7",
       "essential": "No",
       "overdoseEffects": "toxic"
+    },
+    "cost": {
+      "price_kg": "$4-$5",
+      "price_kg_alt": "",
+      "form": "min 99.95% pure",
+      "date": "2010-2018",
+      "price_conditions": "",
+      "price_avarage": 6.5
     }
   },
   {
@@ -745,6 +921,14 @@ module.exports = [
       "fraction": "5.7e-7",
       "essential": "No",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "$1-$4",
+      "price_kg_alt": "$1-$4",
+      "form": "Cerium(IV) oxide (CeO2), 99%",
+      "date": "Qly avgs. Q1-Q3 2007",
+      "price_conditions": "Free On Board China",
+      "price_avarage": 3
     }
   },
   {
@@ -780,6 +964,14 @@ module.exports = [
       "fraction": "3.1e-7",
       "essential": "No",
       "overdoseEffects": "toxic in higher amounts"
+    },
+    "cost": {
+      "price_kg": "$100",
+      "price_kg_alt": "",
+      "form": "Barium chromate 99%",
+      "date": "July 11, 2010",
+      "price_conditions": "",
+      "price_avarage": 100
     }
   },
   {
@@ -814,6 +1006,14 @@ module.exports = [
       "fraction": "2.4e-7",
       "essential": "No",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "$16-$26",
+      "price_kg_alt": "$16-$26",
+      "form": "Commodity tin",
+      "date": "2010-2018",
+      "price_conditions": "LME Cash off. fix. bid",
+      "price_avarage": 29
     }
   },
   {
@@ -848,6 +1048,14 @@ module.exports = [
       "fraction": "1.6e-7",
       "essential": "Yes (e.g. thyroxine, triiodothyronine)",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "",
+      "price_kg_alt": "$83",
+      "form": "-",
+      "date": "",
+      "price_conditions": "",
+      "price_avarage": 83
     }
   },
   {
@@ -881,6 +1089,14 @@ module.exports = [
       "fraction": "1.3e-7",
       "essential": "No",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "$4-$16",
+      "price_kg_alt": "",
+      "form": "Ti sponge TG100 12x25mm",
+      "date": "2010-2018",
+      "price_conditions": "Long term contract",
+      "price_avarage": 12
     }
   },
   {
@@ -912,6 +1128,14 @@ module.exports = [
       "fraction": "6.9e-7",
       "essential": "Probably",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "",
+      "price_kg_alt": "$11140",
+      "form": "-",
+      "date": "",
+      "price_conditions": "",
+      "price_avarage": 11140
     }
   },
   {
@@ -945,6 +1169,14 @@ module.exports = [
       "fraction": "1.9e-7",
       "essential": "Yes",
       "overdoseEffects": "toxic in higher amounts"
+    },
+    "cost": {
+      "price_kg": "$80-$280",
+      "price_kg_alt": "",
+      "form": "min 99.5% pure",
+      "date": "2010-2018",
+      "price_conditions": "",
+      "price_avarage": 220
     }
   },
   {
@@ -978,6 +1210,14 @@ module.exports = [
       "fraction": "1.4e-7",
       "essential": "Probably",
       "overdoseEffects": "toxic in higher amounts"
+    },
+    "cost": {
+      "price_kg": "$25-$55",
+      "price_kg_alt": "$25-$55",
+      "form": "Commodity nickel",
+      "date": "2007-2018",
+      "price_conditions": "LME Cash off. fix. bid",
+      "price_avarage": 52.5
     }
   },
   {
@@ -1011,6 +1251,14 @@ module.exports = [
       "fraction": "2.4e-8",
       "essential": "Yes",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "$7-$11",
+      "price_kg_alt": "$7-$11",
+      "form": "99.9%, Electrolytic Vac Melt Grade",
+      "date": "2005-2018",
+      "price_conditions": "FOB North America",
+      "price_avarage": 12.5
     }
   },
   {
@@ -1044,6 +1292,14 @@ module.exports = [
       "fraction": "1.7e-7",
       "essential": "Yes (e.g. Mn-SOD)",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "$1.5",
+      "price_kg_alt": "$1.5",
+      "form": "99.7% min",
+      "date": "2005-11-25",
+      "price_conditions": "FOB China",
+      "price_avarage": 1
     }
   },
   {
@@ -1077,6 +1333,14 @@ module.exports = [
       "fraction": "2.6e-7",
       "essential": "Possibly",
       "overdoseEffects": "toxic in higher amounts"
+    },
+    "cost": {
+      "price_kg": "$1-$2",
+      "price_kg_alt": "",
+      "form": "min 99% pure",
+      "date": "2010-2018",
+      "price_conditions": "",
+      "price_avarage": 2
     }
   },
   {
@@ -1108,6 +1372,14 @@ module.exports = [
       "fraction": "3.1e-8",
       "essential": "Yes (intercorrelated with the functions of several enzymes, hormones and vitamins)",
       "overdoseEffects": "toxic in higher amounts"
+    },
+    "cost": {
+      "price_kg": "",
+      "price_kg_alt": "$270",
+      "form": "pure",
+      "date": "",
+      "price_conditions": "",
+      "price_avarage": 270
     }
   },
   {
@@ -1143,6 +1415,14 @@ module.exports = [
       "fraction": "1.9e-7",
       "essential": "No",
       "overdoseEffects": "toxic"
+    },
+    "cost": {
+      "price_kg": "$14-$18",
+      "price_kg_alt": "$14-$18",
+      "form": "99.99%",
+      "date": "2005-2018",
+      "price_conditions": "?",
+      "price_avarage": 23
     }
   },
   {
@@ -1178,6 +1458,14 @@ module.exports = [
       "fraction": "2.1e-8",
       "essential": "No",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "",
+      "price_kg_alt": "$11000",
+      "form": "-",
+      "date": "",
+      "price_conditions": "",
+      "price_avarage": 11000
     }
   },
   {
@@ -1212,6 +1500,14 @@ module.exports = [
       "fraction": "1.3e-7",
       "essential": "Yes (e.g. the molybdenum oxotransferases, Xanthine oxidase and Sulfite oxidase)",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "$21-$33",
+      "price_kg_alt": "",
+      "form": "Molybdenum oxide Mo 57%",
+      "date": "2010-2018",
+      "price_conditions": "",
+      "price_avarage": 37.5
     }
   },
   {
@@ -1245,6 +1541,14 @@ module.exports = [
       "fraction": "2.1e-8",
       "essential": "Yes (cobalamin, B12)",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "$30-$93",
+      "price_kg_alt": "",
+      "form": "min 99.8& pure",
+      "date": "2005-2018",
+      "price_conditions": "Aerospace application",
+      "price_avarage": 76.5
     }
   },
   {
@@ -1279,6 +1583,14 @@ module.exports = [
       "fraction": "1.1e-7",
       "essential": "No",
       "overdoseEffects": "toxic"
+    },
+    "cost": {
+      "price_kg": "$5-$7",
+      "price_kg_alt": "",
+      "form": "99.65% pure",
+      "date": "2009-2018",
+      "price_conditions": "CIF US port",
+      "price_avarage": 8.5
     }
   },
   {
@@ -1313,6 +1625,14 @@ module.exports = [
       "fraction": "1e-8",
       "essential": "No",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "",
+      "price_kg_alt": "$500-$1500",
+      "form": "Silver bullion",
+      "date": "2010-2018",
+      "price_conditions": "",
+      "price_avarage": 1250
     }
   },
   {
@@ -1347,6 +1667,14 @@ module.exports = [
       "fraction": "0.0000016",
       "essential": "No",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "",
+      "price_kg_alt": "$40-$180",
+      "form": "pure",
+      "date": "2001-2018",
+      "price_conditions": "",
+      "price_avarage": 130
     }
   },
   {
@@ -1381,6 +1709,14 @@ module.exports = [
       "fraction": "0.000006",
       "essential": "No",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "",
+      "price_kg_alt": "$1570",
+      "form": "pure",
+      "date": "",
+      "price_conditions": "",
+      "price_avarage": 1570
     }
   },
   {
@@ -1416,6 +1752,14 @@ module.exports = [
       "fraction": "0.00000137",
       "essential": "No",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "$2.1-$3.9",
+      "price_kg_alt": "$1.2-$2.9",
+      "form": "Lanthanum oxide (La2O3), 99%",
+      "date": "Qly avgs. Q1-Q3 2007",
+      "price_conditions": "Free On Board China",
+      "price_avarage": 4.05
     }
   },
   {
@@ -1450,6 +1794,14 @@ module.exports = [
       "fraction": "1.2e-7",
       "essential": "No",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "",
+      "price_kg_alt": "$240",
+      "form": "pure",
+      "date": "",
+      "price_conditions": "",
+      "price_avarage": 240
     }
   },
   {
@@ -1485,6 +1837,14 @@ module.exports = [
       "fraction": "3e-9",
       "essential": "No",
       "overdoseEffects": "uncoated nanoparticles possibly genotoxic"
+    },
+    "cost": {
+      "price_kg": "",
+      "price_kg_alt": "$9600-$66600",
+      "form": "Gold 24kt",
+      "date": "2001-2018",
+      "price_conditions": "",
+      "price_avarage": 42900
     }
   },
   {
@@ -1518,6 +1878,14 @@ module.exports = [
       "fraction": "2.6e-7",
       "essential": "Possibly (suggested osteo-metabolism (bone) growth factor)",
       "overdoseEffects": ""
+    },
+    "cost": {
+      "price_kg": "$14.33",
+      "price_kg_alt": "",
+      "form": "Vanadium pentoxide 98% min",
+      "date": "July 8, 2010",
+      "price_conditions": "",
+      "price_avarage": 14
     }
   }
 ]

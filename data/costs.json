@@ -1,0 +1,1138 @@
+[
+  {
+    "name": "Actinium",
+    "symbol": "Ac",
+    "number": 89,
+    "form": "225Ac 99% pure [1]",
+    "price_conditions": "$1203/mCi with permit",
+    "price_kg": "",
+    "price_kg_alt": "$100> [2]",
+    "date": "Fiscal year 2003",
+    "reference": "[2] [3]"
+  },
+  {
+    "name": "Aluminium",
+    "symbol": "Al",
+    "number": 13,
+    "form": "P1020A (=>99.7% Al)",
+    "price_conditions": "LME official cash, ask NL",
+    "price_kg": "kg",
+    "price_kg_alt": "$1.3-$2.5",
+    "date": "2002-2018",
+    "reference": [
+      4
+    ]
+  },
+  {
+    "name": "Americium",
+    "symbol": "Am",
+    "number": 95,
+    "form": "241AmO2 powder >99%[5]",
+    "price_conditions": "gram units in steel cont.",
+    "price_kg": "$728000 (oxide?)",
+    "price_kg_alt": "",
+    "date": "Sept. 1998",
+    "reference": [
+      6
+    ]
+  },
+  {
+    "name": "Antimony",
+    "symbol": "Sb",
+    "number": 51,
+    "form": "99.65% pure",
+    "price_conditions": "CIF US port",
+    "price_kg": "$5-$7",
+    "price_kg_alt": "",
+    "date": "2009-2018",
+    "reference": [
+      8
+    ]
+  },
+  {
+    "name": "Arsenic",
+    "symbol": "As",
+    "number": 33,
+    "form": "min 99% pure",
+    "price_conditions": "",
+    "price_kg": "$1-$2",
+    "price_kg_alt": "",
+    "date": "2010-2018",
+    "reference": [
+      10
+    ]
+  },
+  {
+    "name": "Barium",
+    "symbol": "Ba",
+    "number": 56,
+    "form": "Barium chromate 99%",
+    "price_conditions": "",
+    "price_kg": "$100",
+    "price_kg_alt": "",
+    "date": "July 11, 2010",
+    "reference": [
+      11
+    ]
+  },
+  {
+    "name": "Beryllium",
+    "symbol": "Be",
+    "number": 4,
+    "form": "-",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$7480",
+    "date": "",
+    "reference": [
+      12
+    ]
+  },
+  {
+    "name": "Bismuth",
+    "symbol": "Bi",
+    "number": 83,
+    "form": "min 99.99% pure",
+    "price_conditions": "",
+    "price_kg": "$17-$29",
+    "price_kg_alt": "",
+    "date": "2008-2018",
+    "reference": [
+      13
+    ]
+  },
+  {
+    "name": "Boron",
+    "symbol": "B",
+    "number": 5,
+    "form": "-",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$11140",
+    "date": "",
+    "reference": [
+      14
+    ]
+  },
+  {
+    "name": "Bromine",
+    "symbol": "Br",
+    "number": 35,
+    "form": "-",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$50",
+    "date": "",
+    "reference": [
+      15
+    ]
+  },
+  {
+    "name": "Cadmium",
+    "symbol": "Cd",
+    "number": 48,
+    "form": "min 99.95% pure",
+    "price_conditions": "",
+    "price_kg": "$4-$5",
+    "price_kg_alt": "",
+    "date": "2010-2018",
+    "reference": [
+      16
+    ]
+  },
+  {
+    "name": "Cesium",
+    "symbol": "Cs",
+    "number": 55,
+    "form": "-",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$11000",
+    "date": "",
+    "reference": [
+      17
+    ]
+  },
+  {
+    "name": "Calcium",
+    "symbol": "Ca",
+    "number": 20,
+    "form": "-",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$200",
+    "date": "",
+    "reference": [
+      18
+    ]
+  },
+  {
+    "name": "Californium",
+    "symbol": "Cf",
+    "number": 98,
+    "form": "-",
+    "price_conditions": "synthetic",
+    "price_kg": "",
+    "price_kg_alt": "$27000000000",
+    "date": "",
+    "reference": [
+      19
+    ]
+  },
+  {
+    "name": "Carbon",
+    "symbol": "C",
+    "number": 6,
+    "form": "-",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$24",
+    "date": "",
+    "reference": [
+      20
+    ]
+  },
+  {
+    "name": "Cerium",
+    "symbol": "Ce",
+    "number": 58,
+    "form": "Cerium(IV) oxide (CeO2), 99%",
+    "price_conditions": "Free On Board China",
+    "price_kg": "$1-$4",
+    "price_kg_alt": "$1-$4",
+    "date": "Qly avgs. Q1-Q3 2007",
+    "reference": [
+      21
+    ]
+  },
+  {
+    "name": "Chlorine",
+    "symbol": "Cl",
+    "number": 17,
+    "form": "-",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$1-$2",
+    "date": "",
+    "reference": [
+      22
+    ]
+  },
+  {
+    "name": "Chromium",
+    "symbol": "Cr",
+    "number": 24,
+    "form": "99.9%, Electrolytic Vac Melt Grade",
+    "price_conditions": "FOB North America",
+    "price_kg": "$7-$11",
+    "price_kg_alt": "$7-$11",
+    "date": "2005-2018",
+    "reference": [
+      23
+    ]
+  },
+  {
+    "name": "Cobalt",
+    "symbol": "Co",
+    "number": 27,
+    "form": "min 99.8& pure",
+    "price_conditions": "Aerospace application",
+    "price_kg": "$30-$93",
+    "price_kg_alt": "",
+    "date": "2005-2018",
+    "reference": [
+      24
+    ]
+  },
+  {
+    "name": "Copper",
+    "symbol": "Cu",
+    "number": 29,
+    "form": "Commodity copper",
+    "price_conditions": "LME Cash off. fix. bid",
+    "price_kg": "$5.1-$8.8",
+    "price_kg_alt": "$5.1-$8.8",
+    "date": "2007-2018",
+    "reference": [
+      25
+    ]
+  },
+  {
+    "name": "Dysprosium",
+    "symbol": "Dy",
+    "number": 66,
+    "form": "Dysprosium(III) oxide (Dy2O3), 99%",
+    "price_conditions": "Free On Board China",
+    "price_kg": "$85-$350",
+    "price_kg_alt": "$65-$230",
+    "date": "2007-2017",
+    "reference": [
+      26
+    ]
+  },
+  {
+    "name": "Europium",
+    "symbol": "Eu",
+    "number": 63,
+    "form": "Europium oxide, 99%",
+    "price_conditions": "Free On Board China",
+    "price_kg": "$150-$370",
+    "price_kg_alt": "-",
+    "date": "2007-2017",
+    "reference": [
+      27
+    ]
+  },
+  {
+    "name": "Erbium",
+    "symbol": "Er",
+    "number": 68,
+    "form": "-",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$95-$900",
+    "date": "2007-2017",
+    "reference": "[3][4]"
+  },
+  {
+    "name": "Fluorine",
+    "symbol": "F",
+    "number": 9,
+    "form": "-",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$1900",
+    "date": "",
+    "reference": [
+      28
+    ]
+  },
+  {
+    "name": "Gadolinium",
+    "symbol": "Gd",
+    "number": 64,
+    "form": "min 99% pure",
+    "price_conditions": "FOB China",
+    "price_kg": "$19-$55",
+    "price_kg_alt": "",
+    "date": "2010-2017",
+    "reference": [
+      29
+    ]
+  },
+  {
+    "name": "Gallium",
+    "symbol": "Ga",
+    "number": 31,
+    "form": "min 99.99% pure",
+    "price_conditions": "CIF Main Airport",
+    "price_kg": "$525",
+    "price_kg_alt": "",
+    "date": "July 8, 2010",
+    "reference": [
+      30
+    ]
+  },
+  {
+    "name": "Germanium",
+    "symbol": "Ge",
+    "number": 32,
+    "form": "min 99.99% pure",
+    "price_conditions": "CIF Main Airport",
+    "price_kg": "$940-$1700",
+    "price_kg_alt": "",
+    "date": "2010-2018",
+    "reference": [
+      31
+    ]
+  },
+  {
+    "name": "Gold",
+    "symbol": "Au",
+    "number": 79,
+    "form": "Gold 24kt",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$9600-$66600",
+    "date": "2001-2018",
+    "reference": [
+      32
+    ]
+  },
+  {
+    "name": "Hafnium",
+    "symbol": "Hf",
+    "number": 72,
+    "form": "pure",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$1200",
+    "date": "",
+    "reference": [
+      33
+    ]
+  },
+  {
+    "name": "Helium",
+    "symbol": "He",
+    "number": 2,
+    "form": "-",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$52",
+    "date": "",
+    "reference": [
+      34
+    ]
+  },
+  {
+    "name": "Holmium",
+    "symbol": "Ho",
+    "number": 67,
+    "form": "-",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$8600",
+    "date": "",
+    "reference": [
+      5
+    ]
+  },
+  {
+    "name": "Hydrogen",
+    "symbol": "H",
+    "number": 1,
+    "form": "Gas",
+    "price_conditions": "99%",
+    "price_kg": "$0.7-$5",
+    "price_kg_alt": "$0.7-$5",
+    "date": "2004-2018",
+    "reference": [
+      35
+    ]
+  },
+  {
+    "name": "",
+    "symbol": "",
+    "number": "",
+    "form": "Liquid",
+    "price_conditions": "99%",
+    "price_kg": "$2-$9",
+    "price_kg_alt": "$2-$9",
+    "date": "2004-2018",
+    "reference": [
+      36
+    ]
+  },
+  {
+    "name": "Indium",
+    "symbol": "In",
+    "number": 49,
+    "form": "min 99.99%",
+    "price_conditions": "",
+    "price_kg": "$180-$1000",
+    "price_kg_alt": "",
+    "date": "2005-2018",
+    "reference": [
+      37
+    ]
+  },
+  {
+    "name": "Iodine",
+    "symbol": "I",
+    "number": 53,
+    "form": "-",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$83",
+    "date": "",
+    "reference": [
+      38
+    ]
+  },
+  {
+    "name": "Iridium",
+    "symbol": "Ir",
+    "number": 77,
+    "form": "-",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$35000-$42000",
+    "date": "2010-2018",
+    "reference": [
+      39
+    ]
+  },
+  {
+    "name": "Iron",
+    "symbol": "Fe",
+    "number": 26,
+    "form": "-",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$0.019 - $0.072",
+    "date": "2010-2018",
+    "reference": [
+      40
+    ]
+  },
+  {
+    "name": "Lanthanum",
+    "symbol": "La",
+    "number": 57,
+    "form": "Lanthanum oxide (La2O3), 99%",
+    "price_conditions": "Free On Board China",
+    "price_kg": "$2.1-$3.9",
+    "price_kg_alt": "$1.2-$2.9",
+    "date": "Qly avgs. Q1-Q3 2007",
+    "reference": [
+      41
+    ]
+  },
+  {
+    "name": "Lead",
+    "symbol": "Pb",
+    "number": 82,
+    "form": "Commodity lead",
+    "price_conditions": "LME Cash off. fix. bid",
+    "price_kg": "$1.1-$4.1",
+    "price_kg_alt": "$1.1-$4.1",
+    "date": "2007-2018",
+    "reference": [
+      42
+    ]
+  },
+  {
+    "name": "Lithium",
+    "symbol": "Li",
+    "number": 3,
+    "form": "pure",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$270",
+    "date": "",
+    "reference": [
+      43
+    ]
+  },
+  {
+    "name": "Lutetium",
+    "symbol": "Lu",
+    "number": 71,
+    "form": "pure",
+    "price_conditions": "",
+    "price_kg": "$2400",
+    "price_kg_alt": "$340000 (?)",
+    "date": "",
+    "reference": "2003 [6][44]"
+  },
+  {
+    "name": "Magnesium",
+    "symbol": "Mg",
+    "number": 12,
+    "form": "min 99.9% pure",
+    "price_conditions": "",
+    "price_kg": "$5.8",
+    "price_kg_alt": "",
+    "date": "July 8, 2010",
+    "reference": [
+      45
+    ]
+  },
+  {
+    "name": "Manganese",
+    "symbol": "Mn",
+    "number": 25,
+    "form": "99.7% min",
+    "price_conditions": "FOB China",
+    "price_kg": "$1.5",
+    "price_kg_alt": "$1.5",
+    "date": "2005-11-25",
+    "reference": [
+      46
+    ]
+  },
+  {
+    "name": "Mercury",
+    "symbol": "Hg",
+    "number": 80,
+    "form": "99.99%",
+    "price_conditions": "?",
+    "price_kg": "$14-$18",
+    "price_kg_alt": "$14-$18",
+    "date": "2005-2018",
+    "reference": [
+      47
+    ]
+  },
+  {
+    "name": "Molybdenum",
+    "symbol": "Mo",
+    "number": 42,
+    "form": "Molybdenum oxide Mo 57%",
+    "price_conditions": "",
+    "price_kg": "$21-$33",
+    "price_kg_alt": "",
+    "date": "2010-2018",
+    "reference": [
+      48
+    ]
+  },
+  {
+    "name": "Neodymium",
+    "symbol": "Nd",
+    "number": 60,
+    "form": "Neodymium oxide (Nd2O3), 99%",
+    "price_conditions": "Free On Board China",
+    "price_kg": "$24-$39",
+    "price_kg_alt": "$18-$29",
+    "date": "Qly avgs. Q1-Q3 2007",
+    "reference": [
+      49
+    ]
+  },
+  {
+    "name": "Neon",
+    "symbol": "Ne",
+    "number": 10,
+    "form": "pure",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$330",
+    "date": "",
+    "reference": [
+      50
+    ]
+  },
+  {
+    "name": "Neptunium",
+    "symbol": "Np",
+    "number": 93,
+    "form": "-",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$600000-$666000",
+    "date": "",
+    "reference": ""
+  },
+  {
+    "name": "Nickel",
+    "symbol": "Ni",
+    "number": 28,
+    "form": "Commodity nickel",
+    "price_conditions": "LME Cash off. fix. bid",
+    "price_kg": "$25-$55",
+    "price_kg_alt": "$25-$55",
+    "date": "2007-2018",
+    "reference": [
+      51
+    ]
+  },
+  {
+    "name": "Niobium",
+    "symbol": "Nb",
+    "number": 41,
+    "form": "pure",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$40-$180",
+    "date": "2001-2018",
+    "reference": [
+      52
+    ]
+  },
+  {
+    "name": "Nitrogen",
+    "symbol": "N",
+    "number": 7,
+    "form": "99.999%UHP 311scf cyl.",
+    "price_conditions": "at U of Florida",
+    "price_kg": "$3-$4",
+    "price_kg_alt": "$3-$4",
+    "date": "2006-2018",
+    "reference": "[53][54]"
+  },
+  {
+    "name": "Nobelium",
+    "symbol": "No",
+    "number": 102,
+    "form": "-",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "",
+    "date": "",
+    "reference": ""
+  },
+  {
+    "name": "Osmium",
+    "symbol": "Os",
+    "number": 76,
+    "form": "pure",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$13000-$77000",
+    "date": "2008-2018",
+    "reference": "[58][59]"
+  },
+  {
+    "name": "Oxygen",
+    "symbol": "O",
+    "number": 8,
+    "form": "pure",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$3",
+    "date": "",
+    "reference": [
+      60
+    ]
+  },
+  {
+    "name": "Palladium",
+    "symbol": "Pd",
+    "number": 46,
+    "form": "pure",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$8000-$33000",
+    "date": "2008-2018",
+    "reference": [
+      61
+    ]
+  },
+  {
+    "name": "Phosphorus",
+    "symbol": "P",
+    "number": 15,
+    "form": "pure",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$300",
+    "date": "",
+    "reference": [
+      62
+    ]
+  },
+  {
+    "name": "Platinum",
+    "symbol": "Pt",
+    "number": 78,
+    "form": "Platinum 99.95%",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$28000-$80000",
+    "date": "2008-2018",
+    "reference": "[63][64]"
+  },
+  {
+    "name": "Plutonium",
+    "symbol": "Pu",
+    "number": 94,
+    "form": "pure",
+    "price_conditions": "Not legal to own.[7]",
+    "price_kg": "",
+    "price_kg_alt": "$4000000-$5600000",
+    "date": "",
+    "reference": "[65], [66]"
+  },
+  {
+    "name": "Potassium",
+    "symbol": "K",
+    "number": 19,
+    "form": "pure",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$1000",
+    "date": "",
+    "reference": [
+      67
+    ]
+  },
+  {
+    "name": "Praseodymium",
+    "symbol": "Pr",
+    "number": 59,
+    "form": "Praseodymium oxide (Pr2O3), 99%",
+    "price_conditions": "Free On Board China",
+    "price_kg": "$22-$37",
+    "price_kg_alt": "$16-$28",
+    "date": "Qly avgs. Q1-Q3 2007",
+    "reference": [
+      68
+    ]
+  },
+  {
+    "name": "Protactinium",
+    "symbol": "Pa",
+    "number": 91,
+    "form": "-",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$280000",
+    "date": "",
+    "reference": [
+      69
+    ]
+  },
+  {
+    "name": "Rhenium",
+    "symbol": "Re",
+    "number": 75,
+    "form": "pellets min 99.9%",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$35000-$168000",
+    "date": "2008-2018",
+    "reference": "[70][71]"
+  },
+  {
+    "name": "Rhodium",
+    "symbol": "Rh",
+    "number": 45,
+    "form": "min 99.9% pure",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$70000-$350000",
+    "date": "2010-2018",
+    "reference": "[72][73]"
+  },
+  {
+    "name": "Rubidium",
+    "symbol": "Rb",
+    "number": 37,
+    "form": "pure",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$6000-$12000",
+    "date": "2010-2018",
+    "reference": [
+      74
+    ]
+  },
+  {
+    "name": "Ruthenium",
+    "symbol": "Ru",
+    "number": 44,
+    "form": "pure",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$2000-$14000",
+    "date": "2010-2018",
+    "reference": [
+      75
+    ]
+  },
+  {
+    "name": "Samarium",
+    "symbol": "Sm",
+    "number": 62,
+    "form": "Samarium oxide (Sm2O3), 99%",
+    "price_conditions": "",
+    "price_kg": "$2-$5",
+    "price_kg_alt": "$1-$4",
+    "date": "Qly avgs. Q1-Q3 2007",
+    "reference": [
+      76
+    ]
+  },
+  {
+    "name": "Scandium",
+    "symbol": "Sc",
+    "number": 21,
+    "form": "pure",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$4400-$15000",
+    "date": "2007-2017",
+    "reference": "[77][78]"
+  },
+  {
+    "name": "Selenium",
+    "symbol": "Se",
+    "number": 34,
+    "form": "min 99.5% pure",
+    "price_conditions": "",
+    "price_kg": "$80-$280",
+    "price_kg_alt": "",
+    "date": "2010-2018",
+    "reference": [
+      79
+    ]
+  },
+  {
+    "name": "Silicon",
+    "symbol": "Si",
+    "number": 14,
+    "form": "min 98.5% (5-5-3)",
+    "price_conditions": "FOB P.R.C. China",
+    "price_kg": "$2-$3",
+    "price_kg_alt": "",
+    "date": 2010,
+    "reference": "[80], [81]"
+  },
+  {
+    "name": "Silver",
+    "symbol": "Ag",
+    "number": 47,
+    "form": "Silver bullion",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$500-$1500",
+    "date": "2010-2018",
+    "reference": [
+      82
+    ]
+  },
+  {
+    "name": "Sodium",
+    "symbol": "Na",
+    "number": 11,
+    "form": "pure",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$250",
+    "date": "",
+    "reference": [
+      83
+    ]
+  },
+  {
+    "name": "Strontium",
+    "symbol": "Sr",
+    "number": 38,
+    "form": "pure",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$1000",
+    "date": "",
+    "reference": [
+      84
+    ]
+  },
+  {
+    "name": "Sulfur",
+    "symbol": "S",
+    "number": 16,
+    "form": "pure",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$500",
+    "date": "",
+    "reference": [
+      85
+    ]
+  },
+  {
+    "name": "Tantalum",
+    "symbol": "Ta",
+    "number": 73,
+    "form": "Tantalite basis 30% Ta205, Tantalum Ore",
+    "price_conditions": "",
+    "price_kg": "$120-$160",
+    "price_kg_alt": "",
+    "date": "2010-2018",
+    "reference": [
+      86
+    ]
+  },
+  {
+    "name": "Technetium",
+    "symbol": "Tc",
+    "number": 43,
+    "form": "-",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "",
+    "date": "",
+    "reference": ""
+  },
+  {
+    "name": "Tellurium",
+    "symbol": "Te",
+    "number": 52,
+    "form": "pure",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$240",
+    "date": "",
+    "reference": [
+      87
+    ]
+  },
+  {
+    "name": "Terbium",
+    "symbol": "Tb",
+    "number": 65,
+    "form": "Tb metal 99% min",
+    "price_conditions": "FOB China",
+    "price_kg": "$420-$720",
+    "price_kg_alt": "",
+    "date": "2010-2018",
+    "reference": [
+      88
+    ]
+  },
+  {
+    "name": "Thallium",
+    "symbol": "Tl",
+    "number": 81,
+    "form": "pure",
+    "price_conditions": "",
+    "price_kg": "$480",
+    "price_kg_alt": "",
+    "date": "",
+    "reference": [
+      90
+    ]
+  },
+  {
+    "name": "Thorium",
+    "symbol": "Th",
+    "number": 90,
+    "form": "-",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$500-$5000",
+    "date": "2008-2018",
+    "reference": "[91], [92]"
+  },
+  {
+    "name": "Thulium",
+    "symbol": "Tm",
+    "number": 69,
+    "form": "-",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$20000-$70000",
+    "date": "1998-2018",
+    "reference": [
+      8
+    ]
+  },
+  {
+    "name": "Tin",
+    "symbol": "Sn",
+    "number": 50,
+    "form": "Commodity tin",
+    "price_conditions": "LME Cash off. fix. bid",
+    "price_kg": "$16-$26",
+    "price_kg_alt": "$16-$26",
+    "date": "2010-2018",
+    "reference": [
+      93
+    ]
+  },
+  {
+    "name": "Titanium",
+    "symbol": "Ti",
+    "number": 22,
+    "form": "Ti sponge TG100 12x25mm",
+    "price_conditions": "Long term contract",
+    "price_kg": "$4-$16",
+    "price_kg_alt": "",
+    "date": "2010-2018",
+    "reference": [
+      94
+    ]
+  },
+  {
+    "name": "Tungsten",
+    "symbol": "W",
+    "number": 74,
+    "form": "Ammonium paratungstate",
+    "price_conditions": "FOB P.R.C. China",
+    "price_kg": "",
+    "price_kg_alt": "$22-$55",
+    "date": "2006-2018",
+    "reference": "[95][96]"
+  },
+  {
+    "name": "Uranium",
+    "symbol": "U",
+    "number": 92,
+    "form": "Yellowcake 0.7% 235U, Depleted 0.2-0.4% 235U",
+    "price_conditions": "Not legal to own.[9]",
+    "price_kg": "",
+    "price_kg_alt": "$15000000 (235U)",
+    "date": "2008-2018",
+    "reference": "[97], [98]"
+  },
+  {
+    "name": "Vanadium",
+    "symbol": "V",
+    "number": 23,
+    "form": "Vanadium pentoxide 98% min",
+    "price_conditions": "",
+    "price_kg": "$14.33",
+    "price_kg_alt": "",
+    "date": "July 8, 2010",
+    "reference": [
+      100
+    ]
+  },
+  {
+    "name": "Xenon",
+    "symbol": "Xe",
+    "number": 54,
+    "form": "pure",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$1200",
+    "date": "",
+    "reference": [
+      101
+    ]
+  },
+  {
+    "name": "Ytterbium",
+    "symbol": "Yb",
+    "number": 70,
+    "form": "pure",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$14000",
+    "date": "",
+    "reference": [
+      102
+    ]
+  },
+  {
+    "name": "Yttrium",
+    "symbol": "Y",
+    "number": 39,
+    "form": "min 99.9% pure",
+    "price_conditions": "FOB China",
+    "price_kg": "$35-$45",
+    "price_kg_alt": "",
+    "date": "2010-2018",
+    "reference": [
+      103
+    ]
+  },
+  {
+    "name": "Zinc",
+    "symbol": "Zn",
+    "number": 30,
+    "form": "Commodity zinc",
+    "price_conditions": "LME Cash off. fix. bid",
+    "price_kg": "$2.1-$4.5",
+    "price_kg_alt": "$2.1-$4.5",
+    "date": "2007-2018",
+    "reference": [
+      104
+    ]
+  },
+  {
+    "name": "Zirconium",
+    "symbol": "Zr",
+    "number": 40,
+    "form": "pure",
+    "price_conditions": "",
+    "price_kg": "",
+    "price_kg_alt": "$1570",
+    "date": "",
+    "reference": [
+      105
+    ]
+  }
+]
