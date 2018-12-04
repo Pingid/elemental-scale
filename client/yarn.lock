@@ -4262,6 +4262,11 @@ hosted-git-info@^2.1.4:
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
   integrity sha512-7T/BxH19zbcCTa8XkMlbK5lTo1WtgkFi3GvdWEyNuc4Vex7/9Dqbnpsf4JMydcfj9HCg4zUWFTL3Za6lapg5/w==
 
+howler@^2.0.15:
+  version "2.0.15"
+  resolved "https://registry.yarnpkg.com/howler/-/howler-2.0.15.tgz#8f26d6548d29b257441fc190644b4392ce99ad32"
+  integrity sha512-Ceui16WCAdBiRlI3cK/zPmp6eWKG4wU5yIYHtH+X4zPhwqbr2ieRQvt/1J60NCqEXFHuBKdzBrS5DRYkMwiQsg==
+
 hpack.js@^2.1.6:
   version "2.1.6"
   resolved "https://registry.yarnpkg.com/hpack.js/-/hpack.js-2.1.6.tgz#87774c0949e513f42e84575b3c45681fade2a0b2"
@@ -9001,6 +9006,11 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     extend-shallow "^3.0.2"
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
+
+tone@^0.12.80:
+  version "0.12.80"
+  resolved "https://registry.yarnpkg.com/tone/-/tone-0.12.80.tgz#9a40fca603d02e189251db772ef6c7bf082e6c28"
+  integrity sha512-xCriTn1may1ZzfYYwxXW8pNj0W1XScc21ZLSd/itoTa3s0vMO1LlN23UYvHwUduL45xuY+Rw/e87LmqP3mW43Q==
 
 topo@2.x.x:
   version "2.0.2"

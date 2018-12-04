@@ -7,6 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Roboto Mono', source-code-pro, Menlo, Monaco, Consolas, "Courier New";
+  font-size: 40px;
 }
 
 input {
@@ -29,4 +30,7 @@ input:active {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.atoms {
+  font-size: 1rem;
 }
