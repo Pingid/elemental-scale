@@ -52,20 +52,5 @@ const combined = humanElements
     })
 
   })
-  
-fs.writeFileSync('./elements.json', JSON.stringify(combined, null, 2))
 
-// console.log(elements, periodicTable)
-// module.exports = file => new Promise((resolve, reject) => {
-//   const fileBuffer = fs.readFileSync(path.join(__dirname, file));
-//   printer.printDirect({
-//       data: fileBuffer,
-//       type: 'PDF',
-//       success: function(id) {
-//           resolve()
-//       },
-//       error: function(err) {
-//           reject(err)
-//       }
-//   })
-// })
+fs.writeFileSync('./elements.json', JSON.stringify(combined, null, 2))
