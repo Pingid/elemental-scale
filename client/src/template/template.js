@@ -3,8 +3,7 @@ const elements = require('../utils/elements');
 const { BigNumber } = require('bignumber.js');
 const { Helmet } = require('react-helmet');
 
-// require('../index.css');
-// require('basscss/css/basscss.css');
+const basscss = require('./basscss');
 
 module.exports = ({ weight }) => {
 
@@ -13,20 +12,20 @@ module.exports = ({ weight }) => {
     const humanMass = weight / 9.81;
     const elemMass = elem.human.fraction * humanMass;
     const elemMoles = elemMass / elem.atomic_mass;
-    const atoms = avog.times(elemMass).toFormat()
+    const atoms = avog.times(elemMass).toFormat(0)
     const price = elem.cost.price_avarage * elemMass
     return { name: elem.name, atoms, price }
   }
   const width = 580;
 
-  const cost = Math.round(elements.map(getInfo).reduce((a, b) => a + b.price, 0));
+  const dollarsToPounds = .78;
+  const cost = Math.round(elements.map(getInfo).reduce((a, b) => a + b.price, 0) * dollarsToPounds);
 
   return (
     <html style={{ margin: 0}}>
       <head>
         <title>Elemental Scale</title>
-        <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700" rel="stylesheet" />
+        <style>{basscss}</style>
       </head>
       <body style={{
         margin: 0,
@@ -68,10 +67,11 @@ module.exports = ({ weight }) => {
               )
             })
           }
+          <div className="my4" style={{ borderTop: '1px solid black', width: '100%' }} />
+          <p className="center py3 mt4">Estimated value of the raw materials in your body.</p>
+          <p className="center bold mb2">£{cost}</p>
           <div className="mt4 mb2" style={{ borderTop: '1px solid black', width: '100%' }} />
-          <p className="center py3">Estimated value of the raw materials in your body.</p>
-          <p className="center bold">${cost}</p>
-          <p className="center bold mb4 pb4"></p>
+          <p className="center bold mb4 pb4" style={{ color: 'white' }}>hello</p>
         </div>
       </body>
     </html>

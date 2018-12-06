@@ -1,29 +1,43 @@
-const puppeteer = require('puppeteer');
+// Environment variables
+require('dotenv').config()
 
-const renderInterface = require('./dom/renderInterface.js')
-const waitForSubmit = require('./dom/waitForSubmit.js')
+// Dependancies
+const app = require('express')();
+const server = require('http').Server(app);
+const io = require('socket.io')(server);
+const path = require('path')
 
-const createPDF = require('./printing/createPDF')
-const print = require('./printing/print')
+// Local Files
+const State = require('./server/state')
 
-const run = async () => {
-  const browser = await puppeteer.launch({ headless: false });
-  const page = await browser.newPage();
+// Arduino data
+const SerialPort = require('serialport')
+const Readline = require('@serialport/parser-readline')
 
-  const weight = await page.evaluate(renderInterface);
+const port = new SerialPort(process.env.ARDUINO)
+const parser = port.pipe(new Readline({ delimiter: '\r\n' }))
 
-  const name = '/output.pdf';
+// serve the frontend app
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname + '/client/build/index.html'))
+})
 
-  const makePrint = async () => {
-    const weight = await page.evaluate(waitForSubmit)
+// Initialise state;
+let state = new State();
 
-    const buffer = await createPDF(weight, name);
-    await print(buffer)
+io.on('connection',  async socket => {
+  parser.on('data', data => {
 
-    return makePrint();
-  }
+    // Update state based on scale data
+    state.update(data);
 
-  await makePrint();
-}
+    // Send data to front end
+    socket.emit('scales', { measure: state.get('measure'), weight: state.current(), status: state.getStatus() });
+  })
+});
 
-run();
+// Choose the port and start the server
+const PORT = process.env.PORT || 5000
+server.listen(PORT, () => {
+  console.log(`Mixing it up on port ${PORT}`)
+})

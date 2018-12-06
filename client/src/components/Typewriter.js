@@ -23,6 +23,7 @@ export default class Typewriter extends React.Component {
   }
   componentWillUnmount() { clearInterval(this.timerID); }
   componentDidUpdate(prevProps, prevState) {
+    console.log(prevProps.children, this.props.children)
     if (prevProps.children !== this.props.children) return this.setState({ position: 0 });
   }
   render() {
