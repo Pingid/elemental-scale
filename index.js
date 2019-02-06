@@ -14,8 +14,8 @@ const State = require('./server/state')
 const SerialPort = require('serialport')
 const Readline = require('@serialport/parser-readline')
 
-const port = new SerialPort(process.env.ARDUINO)
-const parser = port.pipe(new Readline({ delimiter: '\r\n' }))
+// const port = new SerialPort(process.env.ARDUINO)
+// const parser = port.pipe(new Readline({ delimiter: '\r\n' }))
 
 // serve the frontend app
 app.get('*', (req, res) => {
@@ -26,6 +26,9 @@ app.get('*', (req, res) => {
 let state = new State();
 
 io.on('connection',  async socket => {
+  const port = new SerialPort(process.env.ARDUINO)
+  const parser = port.pipe(new Readline({ delimiter: '\r\n' }))
+  
   parser.on('data', data => {
 
     // Update state based on scale data

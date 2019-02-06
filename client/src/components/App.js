@@ -3,7 +3,6 @@ import { Howl } from 'howler';
 import io from 'socket.io-client';
 
 import Typewriter from './Typewriter';
-import Loader from './Loader';
 import Template from '../template/template';
 
 // Set up websocket
