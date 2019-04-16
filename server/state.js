@@ -26,7 +26,7 @@ class State {
     if (this.get('printState') !== 'done') return null;
     this.set({ measure: value, printState: 'calculating' })
     const printBuffer = await createPDF(value);
-    this.set({ printState: 'printing' })
+    this.set({ printState: 'printing' })  
     const printed = await print(printBuffer)
       .catch(err => { this.printState = 'error'; console.log('Error Printing', err); })
     await new Promise((resolve, reject) => setTimeout(() => { resolve() }, 6000))
@@ -35,11 +35,11 @@ class State {
 
   update(data) {
     // Convert string mass kg to number nutons
-    const convetToNutons = new BigNumber(data.replace(/Load_cell\soutput\sval:/, '')).times(9.81).toNumber();
-    this.addWeight(convetToNutons)
+    const convertedToNutons = new BigNumber(data.replace(/Load_cell\soutput\sval:/, '')).times(9.81).toNumber();
+    this.addWeight(convertedToNutons)
 
     // If no reading
-    if (isNaN(convetToNutons)) { this.set({ scalesState: 'calibrating'}) };
+    if (isNaN(convertedToNutons)) { this.set({ scalesState: 'calibrating'}) };
 
     // if there is no weight on the scales
     if (this.current() < 90) { this.set({ scalesState: 'ready'}) };

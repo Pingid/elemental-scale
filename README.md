@@ -12,9 +12,9 @@ npm install;
 
 Install TSP100 futurePRNT drivers from http://www.starmicronics.com/support/
 
-Run
+Load the arduino
 
 ```
-node index.js
+npm run dev
 ```
 
