@@ -22,11 +22,13 @@ app.get('*', (req, res) => {
 // Initialise state;
 let state = new State();
 
-io.on('connection',  async socket => {
-  const port = new SerialPort(process.env.ARDUINO)
-  const parser = port.pipe(new Readline({ delimiter: '\r\n' }))
+const port = new SerialPort(process.env.ARDUINO)
+const parser = port.pipe(new Readline({ delimiter: '\r\n' }));
+
+io.on('connection',  socket => {
   
   parser.on('data', data => {
+
     // Update state based on scale data
     state.update(data);
 
@@ -36,7 +38,8 @@ io.on('connection',  async socket => {
 });
 
 // Choose the port and start the server
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 5000;
+
 server.listen(PORT, () => {
   console.log(`Mixing it up on port ${PORT}`)
 })

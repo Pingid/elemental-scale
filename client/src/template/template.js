@@ -35,7 +35,7 @@ module.exports = ({ weight }) => {
         // backgroundColor: 'grey'
       }}>
         <div style={{ width: width * .94, margin: '0 auto' }}>
-          <h2 className="center py3">The Elemental Scale</h2>
+          <h2 className="center py3">ATEL Scale</h2>
           <p className="center py3 px2">99.9% of a human’s body mass is made of 11 elements. The remaining 0.01% consists of 35 trace elements.</p>
           <p className="center py3 px2">These results show the approximate number of atoms of each element in your body.</p>
           <div className="my4 py3 flex items-center justify-center flex-wrap" style={{ borderTop: '1px solid black', borderBottom: '1px solid black' }}>
@@ -57,7 +57,7 @@ module.exports = ({ weight }) => {
               return (
                 <React.Fragment key={i}>
                   { i === 11 && <p className="bold py2 italics">Trace Elements</p>}
-                  <div className="pb1">
+                  <div className={i === 1 ? 'pb2' : "pb1"}>
 
                     <div className="flex items-center justify-between">
                       <p className="bold py0 m0">{x.name}</p><p className="py0 m0 atoms">{x.atoms}</p>

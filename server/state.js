@@ -2,6 +2,9 @@ const { BigNumber } = require('bignumber.js');
 const createPDF = require('./printing/createPDF')
 const print = require('./printing/print')
 
+const saveWeightToDatabase = require('./saving/firestore');
+const saveWeightToFile = require('./saving/toFile');
+
 class State {
   constructor() {
     this.state = {
@@ -29,8 +32,17 @@ class State {
     this.set({ printState: 'printing' })  
     const printed = await print(printBuffer)
       .catch(err => { this.printState = 'error'; console.log('Error Printing', err); })
+    
+    // Saving weight data
+    await saveWeightToDatabase(value);
+    await saveWeightToFile(value);
+
     await new Promise((resolve, reject) => setTimeout(() => { resolve() }, 6000))
     this.set({ measure: 0, printState: 'done' })
+  }
+
+  async save(data) {
+
   }
 
   update(data) {
