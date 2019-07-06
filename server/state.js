@@ -34,8 +34,8 @@ class State {
       .catch(err => { this.printState = 'error'; console.log('Error Printing', err); })
     
     // Saving weight data
-    await saveWeightToDatabase(value);
-    await saveWeightToFile(value);
+    await saveWeightToDatabase(value).catch(x => null);
+    await saveWeightToFile(value).catch(x => null);
 
     await new Promise((resolve, reject) => setTimeout(() => { resolve() }, 6000))
     this.set({ measure: 0, printState: 'done' })
